@@ -15,6 +15,8 @@ namespace Shoe4U.Controllers
 
         public IActionResult Index()
         {
+            Console.WriteLine("Hello from Controller! :)");
+
             return View();
         }
 
