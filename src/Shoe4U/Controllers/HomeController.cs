@@ -15,9 +15,6 @@ namespace Shoe4U.Controllers
 
         public IActionResult Index()
         {
-            List<int> list = new List<int>();
-            Console.WriteLine("Hello from Controller! :)");
-
             return View();
         }
 
