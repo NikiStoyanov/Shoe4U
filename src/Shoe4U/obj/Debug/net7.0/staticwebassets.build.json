@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8rQ9iOyb03t6L1seaVluE1dlFw0vXqbL6KbgFuFmZ3Q=",
+  "Hash": "iIc0+qifc+7V0klwGx+Zljqu+zvO3M3wLg8RNrGT2ww=",
   "Source": "Shoe4U",
   "BasePath": "_content/Shoe4U",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Shoe4U\\wwwroot",
       "Source": "Shoe4U",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\css\\site.css",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\css\\site.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\css\\site.css"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\favicon.ico",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\favicon.ico",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\favicon.ico"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\js\\site.js",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\js\\site.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -65,13 +65,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\js\\site.js"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -82,13 +82,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -99,13 +99,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -116,13 +116,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -133,13 +133,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -150,13 +150,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -167,13 +167,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -184,13 +184,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -201,13 +201,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -218,13 +218,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -235,13 +235,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -252,13 +252,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -269,13 +269,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -286,13 +286,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -303,13 +303,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -320,13 +320,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -337,13 +337,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -354,13 +354,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -371,13 +371,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -388,13 +388,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -405,13 +405,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -422,13 +422,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -439,13 +439,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -456,13 +456,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -473,13 +473,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -490,13 +490,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -507,13 +507,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -524,13 +524,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -541,13 +541,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -558,13 +558,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -575,13 +575,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -592,13 +592,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -609,13 +609,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -626,13 +626,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -643,13 +643,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -660,13 +660,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -677,13 +677,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -694,13 +694,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -711,13 +711,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -728,13 +728,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -745,13 +745,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -762,13 +762,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -779,13 +779,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -796,13 +796,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -813,13 +813,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\LICENSE",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -830,13 +830,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\LICENSE"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -847,13 +847,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -864,13 +864,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -881,13 +881,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -898,13 +898,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -915,13 +915,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.js"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -932,13 +932,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -949,13 +949,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.js"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -966,13 +966,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -983,13 +983,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\jquery-validation\\LICENSE.md"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1000,13 +1000,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1017,13 +1017,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1034,13 +1034,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+      "OriginalItemSpec": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.12\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Shoe4U.styles.css",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Shoe4U.styles.css",
       "SourceId": "Shoe4U",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "Shoe4U.styles.css",
       "AssetKind": "All",
@@ -1051,13 +1051,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Shoe4U.styles.css"
+      "OriginalItemSpec": "E:\\repos\\Shoe4U\\src\\Shoe4U\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Shoe4U.styles.css"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Shoe4U.bundle.scp.css",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Shoe4U.bundle.scp.css",
       "SourceId": "Shoe4U",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "Shoe4U.bundle.scp.css",
       "AssetKind": "All",
@@ -1068,13 +1068,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Shoe4U.bundle.scp.css"
+      "OriginalItemSpec": "E:\\repos\\Shoe4U\\src\\Shoe4U\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Shoe4U.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\css\\home.css",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\css\\home.css",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "css/home.css",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\css\\home.css"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\css\\home.css.map",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\css\\home.css.map",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "css/home.css.map",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\css\\home.css.map"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\css\\style.css",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\css\\style.css",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "css/style.css",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\css\\style.css.map",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\css\\style.css.map",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "css/style.css.map",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css.map"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\favicon.ico",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\favicon.ico",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\about\\about.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\about\\about.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/about/about.jpg",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\images\\about\\about.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\about\\awards-logo.png",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\about\\awards-logo.png",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/about/awards-logo.png",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\images\\about\\awards-logo.png"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\avater.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\avater.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/avater.jpg",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\images\\avater.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\backgrounds\\bg-1.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\backgrounds\\bg-1.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/backgrounds/bg-1.jpg",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\images\\backgrounds\\bg-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\backgrounds\\coming-soon-bg.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\backgrounds\\coming-soon-bg.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/backgrounds/coming-soon-bg.jpg",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\images\\backgrounds\\coming-soon-bg.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\blog\\avater-1.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\blog\\avater-1.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/blog/avater-1.jpg",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\images\\blog\\avater-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\blog\\avater-2.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\blog\\avater-2.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/blog/avater-2.jpg",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\images\\blog\\avater-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\blog\\avater-3.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\blog\\avater-3.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/blog/avater-3.jpg",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\images\\blog\\avater-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\blog\\avater-4.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\blog\\avater-4.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/blog/avater-4.jpg",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\images\\blog\\avater-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\blog\\blog-post-1.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\blog\\blog-post-1.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/blog/blog-post-1.jpg",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\images\\blog\\blog-post-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\blog\\blog-post-2.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\blog\\blog-post-2.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/blog/blog-post-2.jpg",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\images\\blog\\blog-post-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\blog\\blog-post-3.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\blog\\blog-post-3.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/blog/blog-post-3.jpg",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\images\\blog\\blog-post-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\blog\\blog-post-4.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\blog\\blog-post-4.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/blog/blog-post-4.jpg",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\images\\blog\\blog-post-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\blog\\blog-post-5.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\blog\\blog-post-5.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/blog/blog-post-5.jpg",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\images\\blog\\blog-post-5.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\blog\\blog-post-6.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\blog\\blog-post-6.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/blog/blog-post-6.jpg",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\images\\blog\\blog-post-6.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\blog\\post-thumb.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\blog\\post-thumb.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/blog/post-thumb.jpg",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\images\\blog\\post-thumb.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\blog\\post-thumb-2.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\blog\\post-thumb-2.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/blog/post-thumb-2.jpg",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\images\\blog\\post-thumb-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\blog\\post-thumb-3.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\blog\\post-thumb-3.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/blog/post-thumb-3.jpg",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\images\\blog\\post-thumb-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\blog\\post-thumb-4.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\blog\\post-thumb-4.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/blog/post-thumb-4.jpg",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\images\\blog\\post-thumb-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\blog\\post-thumb-5.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\blog\\post-thumb-5.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/blog/post-thumb-5.jpg",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\images\\blog\\post-thumb-5.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\blog\\post-thumb-6.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\blog\\post-thumb-6.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/blog/post-thumb-6.jpg",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\images\\blog\\post-thumb-6.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\blog\\post-thumb-7.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\blog\\post-thumb-7.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/blog/post-thumb-7.jpg",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\images\\blog\\post-thumb-7.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\favicon.png",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\favicon.png",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/favicon.png",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\images\\favicon.png"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\logo.png",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\logo.png",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/logo.png",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo.png"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\shop\\cart\\cart-1.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\shop\\cart\\cart-1.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/shop/cart/cart-1.jpg",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\images\\shop\\cart\\cart-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\shop\\cart\\cart-2.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\shop\\cart\\cart-2.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/shop/cart/cart-2.jpg",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\images\\shop\\cart\\cart-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\shop\\cart\\cart-3.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\shop\\cart\\cart-3.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/shop/cart/cart-3.jpg",
       "AssetKind": "All",
@@ -1615,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\images\\shop\\cart\\cart-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\shop\\category\\category-1.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\shop\\category\\category-1.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/shop/category/category-1.jpg",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\images\\shop\\category\\category-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\shop\\category\\category-2.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\shop\\category\\category-2.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/shop/category/category-2.jpg",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\images\\shop\\category\\category-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\shop\\category\\category-3.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\shop\\category\\category-3.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/shop/category/category-3.jpg",
       "AssetKind": "All",
@@ -1666,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\images\\shop\\category\\category-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\shop\\header-img.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\shop\\header-img.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/shop/header-img.jpg",
       "AssetKind": "All",
@@ -1683,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\images\\shop\\header-img.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\shop\\products\\modal-product.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\shop\\products\\modal-product.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/shop/products/modal-product.jpg",
       "AssetKind": "All",
@@ -1700,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\images\\shop\\products\\modal-product.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\shop\\products\\product-1.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\shop\\products\\product-1.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/shop/products/product-1.jpg",
       "AssetKind": "All",
@@ -1717,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\images\\shop\\products\\product-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\shop\\products\\product-2.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\shop\\products\\product-2.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/shop/products/product-2.jpg",
       "AssetKind": "All",
@@ -1734,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\images\\shop\\products\\product-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\shop\\products\\product-3.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\shop\\products\\product-3.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/shop/products/product-3.jpg",
       "AssetKind": "All",
@@ -1751,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\images\\shop\\products\\product-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\shop\\products\\product-4.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\shop\\products\\product-4.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/shop/products/product-4.jpg",
       "AssetKind": "All",
@@ -1768,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\images\\shop\\products\\product-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\shop\\products\\product-5.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\shop\\products\\product-5.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/shop/products/product-5.jpg",
       "AssetKind": "All",
@@ -1785,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\images\\shop\\products\\product-5.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\shop\\products\\product-6.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\shop\\products\\product-6.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/shop/products/product-6.jpg",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\images\\shop\\products\\product-6.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\shop\\products\\product-7.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\shop\\products\\product-7.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/shop/products/product-7.jpg",
       "AssetKind": "All",
@@ -1819,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\images\\shop\\products\\product-7.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\shop\\products\\product-8.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\shop\\products\\product-8.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/shop/products/product-8.jpg",
       "AssetKind": "All",
@@ -1836,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\images\\shop\\products\\product-8.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\shop\\products\\product-9.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\shop\\products\\product-9.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/shop/products/product-9.jpg",
       "AssetKind": "All",
@@ -1853,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\images\\shop\\products\\product-9.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\shop\\products\\single-product.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\shop\\products\\single-product.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/shop/products/single-product.jpg",
       "AssetKind": "All",
@@ -1870,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\images\\shop\\products\\single-product.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\shop\\single-products\\product-1.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\shop\\single-products\\product-1.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/shop/single-products/product-1.jpg",
       "AssetKind": "All",
@@ -1887,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\images\\shop\\single-products\\product-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\shop\\single-products\\product-2.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\shop\\single-products\\product-2.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/shop/single-products/product-2.jpg",
       "AssetKind": "All",
@@ -1904,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\images\\shop\\single-products\\product-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\shop\\single-products\\product-3.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\shop\\single-products\\product-3.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/shop/single-products/product-3.jpg",
       "AssetKind": "All",
@@ -1921,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\images\\shop\\single-products\\product-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\shop\\single-products\\product-4.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\shop\\single-products\\product-4.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/shop/single-products/product-4.jpg",
       "AssetKind": "All",
@@ -1938,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\images\\shop\\single-products\\product-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\shop\\single-products\\product-5.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\shop\\single-products\\product-5.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/shop/single-products/product-5.jpg",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\images\\shop\\single-products\\product-5.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\shop\\single-products\\product-6.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\shop\\single-products\\product-6.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/shop/single-products/product-6.jpg",
       "AssetKind": "All",
@@ -1972,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\images\\shop\\single-products\\product-6.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\shop\\verified.png",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\shop\\verified.png",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/shop/verified.png",
       "AssetKind": "All",
@@ -1989,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\images\\shop\\verified.png"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\slider\\slider-1.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\slider\\slider-1.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/slider/slider-1.jpg",
       "AssetKind": "All",
@@ -2006,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\images\\slider\\slider-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\slider\\slider-2.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\slider\\slider-2.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/slider/slider-2.jpg",
       "AssetKind": "All",
@@ -2023,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\images\\slider\\slider-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\slider\\slider-3.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\slider\\slider-3.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/slider/slider-3.jpg",
       "AssetKind": "All",
@@ -2040,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\images\\slider\\slider-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\team\\team-1.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\team\\team-1.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/team/team-1.jpg",
       "AssetKind": "All",
@@ -2057,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\images\\team\\team-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\team\\team-2.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\team\\team-2.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/team/team-2.jpg",
       "AssetKind": "All",
@@ -2074,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\images\\team\\team-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\team\\team-3.jpg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\images\\team\\team-3.jpg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "images/team/team-3.jpg",
       "AssetKind": "All",
@@ -2091,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\images\\team\\team-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\js\\script.js",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\js\\script.js",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "js/script.js",
       "AssetKind": "All",
@@ -2108,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\js\\script.js"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\animate\\animate.css",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\animate\\animate.css",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/animate/animate.css",
       "AssetKind": "All",
@@ -2125,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\animate\\animate.css"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\bootstrap\\css\\bootstrap.min.css",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\bootstrap\\css\\bootstrap.min.css",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/bootstrap/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -2142,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\bootstrap\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\bootstrap\\js\\bootstrap.js",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\bootstrap\\js\\bootstrap.js",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/bootstrap/js/bootstrap.js",
       "AssetKind": "All",
@@ -2159,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\bootstrap\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\bootstrap\\js\\bootstrap.min.js",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\bootstrap\\js\\bootstrap.min.js",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/bootstrap/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2176,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\bootstrap\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\bootstrap-touchspin\\demo\\demo.css",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\bootstrap-touchspin\\demo\\demo.css",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/bootstrap-touchspin/demo/demo.css",
       "AssetKind": "All",
@@ -2193,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\bootstrap-touchspin\\demo\\demo.css"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\bootstrap-touchspin\\demo\\favicon.ico",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\bootstrap-touchspin\\demo\\favicon.ico",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/bootstrap-touchspin/demo/favicon.ico",
       "AssetKind": "All",
@@ -2210,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\bootstrap-touchspin\\demo\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\bootstrap-touchspin\\demo\\index.html",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\bootstrap-touchspin\\demo\\index.html",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/bootstrap-touchspin/demo/index.html",
       "AssetKind": "All",
@@ -2227,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\bootstrap-touchspin\\demo\\index.html"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\bootstrap-touchspin\\dist\\jquery.bootstrap-touchspin.css",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\bootstrap-touchspin\\dist\\jquery.bootstrap-touchspin.css",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.css",
       "AssetKind": "All",
@@ -2244,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\bootstrap-touchspin\\dist\\jquery.bootstrap-touchspin.css"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\bootstrap-touchspin\\dist\\jquery.bootstrap-touchspin.js",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\bootstrap-touchspin\\dist\\jquery.bootstrap-touchspin.js",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.js",
       "AssetKind": "All",
@@ -2261,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\bootstrap-touchspin\\dist\\jquery.bootstrap-touchspin.js"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\bootstrap-touchspin\\dist\\jquery.bootstrap-touchspin.min.css",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\bootstrap-touchspin\\dist\\jquery.bootstrap-touchspin.min.css",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min.css",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\bootstrap-touchspin\\dist\\jquery.bootstrap-touchspin.min.css"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\bootstrap-touchspin\\dist\\jquery.bootstrap-touchspin.min.js",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\bootstrap-touchspin\\dist\\jquery.bootstrap-touchspin.min.js",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min.js",
       "AssetKind": "All",
@@ -2295,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\bootstrap-touchspin\\dist\\jquery.bootstrap-touchspin.min.js"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\bootstrap-touchspin\\src\\jquery.bootstrap-touchspin.css",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\bootstrap-touchspin\\src\\jquery.bootstrap-touchspin.css",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/bootstrap-touchspin/src/jquery.bootstrap-touchspin.css",
       "AssetKind": "All",
@@ -2312,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\bootstrap-touchspin\\src\\jquery.bootstrap-touchspin.css"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\bootstrap-touchspin\\src\\jquery.bootstrap-touchspin.js",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\bootstrap-touchspin\\src\\jquery.bootstrap-touchspin.js",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/bootstrap-touchspin/src/jquery.bootstrap-touchspin.js",
       "AssetKind": "All",
@@ -2329,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\bootstrap-touchspin\\src\\jquery.bootstrap-touchspin.js"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\ekko-lightbox\\dist\\ekko-lightbox.css",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\ekko-lightbox\\dist\\ekko-lightbox.css",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/ekko-lightbox/dist/ekko-lightbox.css",
       "AssetKind": "All",
@@ -2346,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\ekko-lightbox\\dist\\ekko-lightbox.css"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\ekko-lightbox\\dist\\ekko-lightbox.js",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\ekko-lightbox\\dist\\ekko-lightbox.js",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/ekko-lightbox/dist/ekko-lightbox.js",
       "AssetKind": "All",
@@ -2363,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\ekko-lightbox\\dist\\ekko-lightbox.js"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\ekko-lightbox\\dist\\ekko-lightbox.min.css",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\ekko-lightbox\\dist\\ekko-lightbox.min.css",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/ekko-lightbox/dist/ekko-lightbox.min.css",
       "AssetKind": "All",
@@ -2380,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\ekko-lightbox\\dist\\ekko-lightbox.min.css"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\ekko-lightbox\\dist\\ekko-lightbox.min.js",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\ekko-lightbox\\dist\\ekko-lightbox.min.js",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/ekko-lightbox/dist/ekko-lightbox.min.js",
       "AssetKind": "All",
@@ -2397,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\ekko-lightbox\\dist\\ekko-lightbox.min.js"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\google-map\\gmap.js",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\google-map\\gmap.js",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/google-map/gmap.js",
       "AssetKind": "All",
@@ -2414,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\google-map\\gmap.js"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\google-map\\images\\marker.png",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\google-map\\images\\marker.png",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/google-map/images/marker.png",
       "AssetKind": "All",
@@ -2431,10 +2431,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\google-map\\images\\marker.png"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\instafeed\\instafeed.min.js",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\instafeed\\instafeed.min.js",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/instafeed/instafeed.min.js",
       "AssetKind": "All",
@@ -2448,10 +2448,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\instafeed\\instafeed.min.js"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\jquery\\dist\\core.js",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\jquery\\dist\\core.js",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/jquery/dist/core.js",
       "AssetKind": "All",
@@ -2465,10 +2465,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\jquery\\dist\\core.js"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\jquery\\dist\\jquery.js",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\jquery\\dist\\jquery.js",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2482,10 +2482,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\jquery\\dist\\jquery.min.js",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\jquery\\dist\\jquery.min.js",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2499,10 +2499,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\jquery\\dist\\jquery.min.map",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\jquery\\dist\\jquery.min.map",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2516,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\jquery\\dist\\jquery.slim.js",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\jquery\\dist\\jquery.slim.js",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/jquery/dist/jquery.slim.js",
       "AssetKind": "All",
@@ -2533,10 +2533,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\jquery\\dist\\jquery.slim.js"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\jquery\\dist\\jquery.slim.min.js",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\jquery\\dist\\jquery.slim.min.js",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/jquery/dist/jquery.slim.min.js",
       "AssetKind": "All",
@@ -2550,10 +2550,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\jquery\\dist\\jquery.slim.min.js"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\jquery\\dist\\jquery.slim.min.map",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\jquery\\dist\\jquery.slim.min.map",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/jquery/dist/jquery.slim.min.map",
       "AssetKind": "All",
@@ -2567,10 +2567,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\jquery\\dist\\jquery.slim.min.map"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\slick\\ajax-loader.gif",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\slick\\ajax-loader.gif",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/slick/ajax-loader.gif",
       "AssetKind": "All",
@@ -2584,10 +2584,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\slick\\ajax-loader.gif"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\slick\\fonts\\slick.eot",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\slick\\fonts\\slick.eot",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/slick/fonts/slick.eot",
       "AssetKind": "All",
@@ -2601,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\slick\\fonts\\slick.eot"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\slick\\fonts\\slick.svg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\slick\\fonts\\slick.svg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/slick/fonts/slick.svg",
       "AssetKind": "All",
@@ -2618,10 +2618,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\slick\\fonts\\slick.svg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\slick\\fonts\\slick.ttf",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\slick\\fonts\\slick.ttf",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/slick/fonts/slick.ttf",
       "AssetKind": "All",
@@ -2635,10 +2635,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\slick\\fonts\\slick.ttf"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\slick\\fonts\\slick.woff",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\slick\\fonts\\slick.woff",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/slick/fonts/slick.woff",
       "AssetKind": "All",
@@ -2652,10 +2652,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\slick\\fonts\\slick.woff"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\slick\\README.markdown",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\slick\\README.markdown",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/slick/README.markdown",
       "AssetKind": "All",
@@ -2669,10 +2669,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\slick\\README.markdown"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\slick\\slick.css",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\slick\\slick.css",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/slick/slick.css",
       "AssetKind": "All",
@@ -2686,10 +2686,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\slick\\slick.css"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\slick\\slick.min.js",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\slick\\slick.min.js",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/slick/slick.min.js",
       "AssetKind": "All",
@@ -2703,10 +2703,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\slick\\slick.min.js"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\slick\\slick-animation.min.js",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\slick\\slick-animation.min.js",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/slick/slick-animation.min.js",
       "AssetKind": "All",
@@ -2720,10 +2720,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\slick\\slick-animation.min.js"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\slick\\slick-theme.css",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\slick\\slick-theme.css",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/slick/slick-theme.css",
       "AssetKind": "All",
@@ -2737,10 +2737,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\slick\\slick-theme.css"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\smooth-scroll\\dist\\js\\smooth-scroll.js",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\smooth-scroll\\dist\\js\\smooth-scroll.js",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/smooth-scroll/dist/js/smooth-scroll.js",
       "AssetKind": "All",
@@ -2754,10 +2754,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\smooth-scroll\\dist\\js\\smooth-scroll.js"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\smooth-scroll\\dist\\js\\smooth-scroll.min.js",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\smooth-scroll\\dist\\js\\smooth-scroll.min.js",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/smooth-scroll/dist/js/smooth-scroll.min.js",
       "AssetKind": "All",
@@ -2771,10 +2771,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\smooth-scroll\\dist\\js\\smooth-scroll.min.js"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\smooth-scroll\\dist\\js\\smooth-scroll.polyfills.js",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\smooth-scroll\\dist\\js\\smooth-scroll.polyfills.js",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/smooth-scroll/dist/js/smooth-scroll.polyfills.js",
       "AssetKind": "All",
@@ -2788,10 +2788,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\smooth-scroll\\dist\\js\\smooth-scroll.polyfills.js"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\smooth-scroll\\dist\\js\\smooth-scroll.polyfills.min.js",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\smooth-scroll\\dist\\js\\smooth-scroll.polyfills.min.js",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/smooth-scroll/dist/js/smooth-scroll.polyfills.min.js",
       "AssetKind": "All",
@@ -2805,10 +2805,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\smooth-scroll\\dist\\js\\smooth-scroll.polyfills.min.js"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\syo-timer\\build\\jquery.syotimer.min.js",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\syo-timer\\build\\jquery.syotimer.min.js",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/syo-timer/build/jquery.syotimer.min.js",
       "AssetKind": "All",
@@ -2822,10 +2822,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\syo-timer\\build\\jquery.syotimer.min.js"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\themefisher-font\\demo.html",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\themefisher-font\\demo.html",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/themefisher-font/demo.html",
       "AssetKind": "All",
@@ -2839,10 +2839,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\themefisher-font\\demo.html"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\themefisher-font\\demo-files\\demo.css",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\themefisher-font\\demo-files\\demo.css",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/themefisher-font/demo-files/demo.css",
       "AssetKind": "All",
@@ -2856,10 +2856,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\themefisher-font\\demo-files\\demo.css"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\themefisher-font\\demo-files\\demo.js",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\themefisher-font\\demo-files\\demo.js",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/themefisher-font/demo-files/demo.js",
       "AssetKind": "All",
@@ -2873,10 +2873,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\themefisher-font\\demo-files\\demo.js"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\themefisher-font\\fonts\\themefisher-font.eot",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\themefisher-font\\fonts\\themefisher-font.eot",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/themefisher-font/fonts/themefisher-font.eot",
       "AssetKind": "All",
@@ -2890,10 +2890,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\themefisher-font\\fonts\\themefisher-font.eot"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\themefisher-font\\fonts\\themefisher-font.svg",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\themefisher-font\\fonts\\themefisher-font.svg",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/themefisher-font/fonts/themefisher-font.svg",
       "AssetKind": "All",
@@ -2907,10 +2907,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\themefisher-font\\fonts\\themefisher-font.svg"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\themefisher-font\\fonts\\themefisher-font.ttf",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\themefisher-font\\fonts\\themefisher-font.ttf",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/themefisher-font/fonts/themefisher-font.ttf",
       "AssetKind": "All",
@@ -2924,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\themefisher-font\\fonts\\themefisher-font.ttf"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\themefisher-font\\fonts\\themefisher-font.woff",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\themefisher-font\\fonts\\themefisher-font.woff",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/themefisher-font/fonts/themefisher-font.woff",
       "AssetKind": "All",
@@ -2941,10 +2941,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\themefisher-font\\fonts\\themefisher-font.woff"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\themefisher-font\\Read Me.txt",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\themefisher-font\\Read Me.txt",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/themefisher-font/Read Me.txt",
       "AssetKind": "All",
@@ -2958,10 +2958,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\themefisher-font\\Read Me.txt"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\themefisher-font\\selection.json",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\themefisher-font\\selection.json",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/themefisher-font/selection.json",
       "AssetKind": "All",
@@ -2975,10 +2975,10 @@
       "OriginalItemSpec": "wwwroot\\plugins\\themefisher-font\\selection.json"
     },
     {
-      "Identity": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\themefisher-font\\style.css",
+      "Identity": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\plugins\\themefisher-font\\style.css",
       "SourceId": "Shoe4U",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nikis\\OneDrive\\Bureau\\Projects\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
+      "ContentRoot": "E:\\repos\\Shoe4U\\src\\Shoe4U\\wwwroot\\",
       "BasePath": "_content/Shoe4U",
       "RelativePath": "plugins/themefisher-font/style.css",
       "AssetKind": "All",
