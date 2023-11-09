@@ -36,8 +36,8 @@
 								<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-size="40"
 								   font-family="AustinBold, Austin" font-weight="bold">
 									<g id="Group" transform="translate(-108.000000, -297.000000)" fill="#000000">
-										<text id="AVIATO">
-											<tspan x="108.94" y="325">AVIATO</tspan>
+										<text id="SHOE4U">
+											<tspan x="108.94" y="325">SHOE4U</tspan>
 										</text>
 									</g>
 								</g>
@@ -56,7 +56,7 @@
 								<!-- Cart Item -->
 								<div class="media">
 									<a class="pull-left" href="#!">
-										<img class="media-object" src="images/shop/cart/cart-2.jpg" alt="image" />
+										<img class="media-object" src="images/shop/products/product-1.jpg" alt="image" />
 									</a>
 									<div class="media-body">
 										<h4 class="media-heading"><a href="#!">Име на продукт</a></h4>
@@ -82,10 +82,10 @@
 						</li><!-- / Cart -->
 						<!-- Search -->
 						<li class="dropdown search dropdown-slide">
-							<a asp-area="Identity" asp-controller="Account" asp-action="Login" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"><i class="fa-solid fa-right-to-bracket"></i> Влез</a>
+							<a href="#!" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"><i class="fa-solid fa-right-to-bracket"></i> Вход</a>
 							<ul class="dropdown-menu search-dropdown">
 								<li>
-									<form action="post"><input type="search" class="form-control" placeholder="Search..."></form>
+									<form action="post"><input type="search" class="form-control" placeholder="Търси..."></form>
 								</li>
 							</ul>
 						</li><!-- / Search -->
@@ -94,6 +94,41 @@
 			</div>
 		</div>
 	</section><!-- End Top Header Bar -->
+	<!-- Main Menu Section -->
+	<section class="menu">
+		<nav class="navbar navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<h2 class="menu-title">Начално меню</h2>
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+							aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Навигация</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+				</div><!-- / .navbar-header -->
+				<!-- Navbar Links -->
+				<div id="navbar" class="navbar-collapse collapse text-center">
+					<ul class="nav navbar-nav">
+
+						<li class="dropdown ">
+							<a href="index.html">Начало</a>
+						</li>
+
+						<li class="dropdown ">
+							<a href="">Магазин</a>
+						</li>
+
+						<li class="dropdown ">
+							<a href="">Контакти</a>
+						</li>
+				</div>
+				<!--/.navbar-collapse -->
+			</div><!-- / .container -->
+		</nav>
+	</section>
 
     <div class="container">
         <main role="main" class="pb-3">
@@ -101,51 +136,45 @@
         </main>
     </div>
 
-    <footer class="footer section text-center">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<ul class="social-media">
-					<li>
-						<a href="https://www.facebook.com/themefisher">
-							<i class="tf-ion-social-facebook"></i>
-						</a>
-					</li>
-					<li>
-						<a href="https://www.instagram.com/themefisher">
-							<i class="tf-ion-social-instagram"></i>
-						</a>
-					</li>
-					<li>
-						<a href="https://www.twitter.com/themefisher">
-							<i class="tf-ion-social-twitter"></i>
-						</a>
-					</li>
-					<li>
-						<a href="https://www.pinterest.com/themefisher/">
-							<i class="tf-ion-social-pinterest"></i>
-						</a>
-					</li>
-				</ul>
-				<ul class="footer-menu text-uppercase">
-					<li>
-						<a href="contact.html">CONTACT</a>
-					</li>
-					<li>
-						<a href="shop.html">SHOP</a>
-					</li>
-					<li>
-						<a href="pricing.html">Pricing</a>
-					</li>
-					<li>
-						<a href="contact.html">PRIVACY POLICY</a>
-					</li>
-				</ul>
-				<p class="copyright-text">Copyright &copy;2021, Designed &amp; Developed by <a href="https://themefisher.com/">Themefisher</a></p>
+	<footer class="footer section text-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<ul class="social-media">
+						<li>
+							<a href="">
+								<i class="tf-ion-social-facebook"></i>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<i class="tf-ion-social-instagram"></i>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<i class="tf-ion-social-twitter"></i>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<i class="tf-ion-social-pinterest"></i>
+							</a>
+						</li>
+					</ul>
+					<ul class="footer-menu text-uppercase">
+						<li>
+							<a href="contact.html">КОНТАКТИ</a>
+						</li>
+						<li>
+							<a href="shop.html">МАГАЗИН</a>
+						</li>
+					</ul>
+					<p class="copyright-text">Copyright &copy;2021, Designed &amp; Developed by <a href="https://themefisher.com/">Themefisher</a></p>
+				</div>
 			</div>
 		</div>
-	</div>
-</footer>
+	</footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
