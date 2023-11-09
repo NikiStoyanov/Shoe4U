@@ -11621,23 +11621,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {},
+    "C:\\Users\\stefi\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\repos\\Shoe4U\\src\\Shoe4U\\Shoe4U.csproj",
+      "projectUniqueName": "C:\\Users\\stefi\\Desktop\\Shoe4U\\src\\Shoe4U\\Shoe4U.csproj",
       "projectName": "Shoe4U",
-      "projectPath": "E:\\repos\\Shoe4U\\src\\Shoe4U\\Shoe4U.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "E:\\repos\\Shoe4U\\src\\Shoe4U\\obj\\",
+      "projectPath": "C:\\Users\\stefi\\Desktop\\Shoe4U\\src\\Shoe4U\\Shoe4U.csproj",
+      "packagesPath": "C:\\Users\\stefi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\stefi\\Desktop\\Shoe4U\\src\\Shoe4U\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\stefi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -11645,8 +11645,9 @@
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "https://www.nuget.org/api/v2/curated-feeds/microsoftdotnet/": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
@@ -11708,7 +11709,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }
