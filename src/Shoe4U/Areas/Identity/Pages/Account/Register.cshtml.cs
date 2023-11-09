@@ -47,6 +47,9 @@ namespace Shoe4U.Areas.Identity.Pages.Account
         public class InputModel
         {
             [Required]
+            public string Name { get; set; }
+
+            [Required]
             [EmailAddress]
             [Display(Name = "Email")]
             public string Email { get; set; }

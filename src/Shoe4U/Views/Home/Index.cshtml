@@ -24,46 +24,45 @@
 <div class="col-md-6 col-xs-12 col-sm-6">
 	<!-- Cart -->
 	<ul class="top-menu text-right list-inline">
-		<li class="dropdown cart-nav dropdown-slide">
-			<a href="#!" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
-				<i class="tf-ion-android-cart"></i>Количка
-			</a>
-			<div class="dropdown-menu cart-dropdown">
-				<!-- Cart Item -->
-				<div class="media">
-					<a class="pull-left" href="#!">
-						<img class="media-object" src="images/shop/cart/cart-2.jpg" alt="image" />
-					</a>
-					<div class="media-body">
-						<h4 class="media-heading"><a href="#!">Име на продукт</a></h4>
-						<div class="cart-price">
-							<span>1 x</span>
-							<span>1250.00 лв.</span>
-						</div>
-						<h5><strong>1200 лв.</strong></h5>
-					</div>
-					<a href="#!" class="remove"><i class="tf-ion-close"></i></a>
-				</div><!-- / Cart Item -->
+        <li class="dropdown cart-nav dropdown-slide">
+            <a href="#!" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+                <i class="tf-ion-android-cart"></i>Количка
+            </a>
+            <div class="dropdown-menu cart-dropdown">
+                <!-- Cart Item -->
+                <div class="media">
+                    <a class="pull-left" href="#!">
+                        <img class="media-object" src="images/shop/cart/cart-2.jpg" alt="image" />
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading"><a href="#!">Име на продукт</a></h4>
+                        <div class="cart-price">
+                            <span>1 x</span>
+                            <span>1250.00 лв.</span>
+                        </div>
+                        <h5><strong>1200 лв.</strong></h5>
+                    </div>
+                    <a href="#!" class="remove"><i class="tf-ion-close"></i></a>
+                </div><!-- / Cart Item -->
 
-				<div class="cart-summary">
-					<span>Общо</span>
-					<span class="total-price">1799.00 лв.</span>
-				</div>
-				<ul class="text-center cart-buttons">
-					<li><a href="cart.html" class="btn btn-small">Виж количка</a></li>
-					<li><a href="checkout.html" class="btn btn-small btn-solid-border">Плащане</a></li>
-				</ul>
-			</div>
+                <div class="cart-summary">
+                    <span>Общо</span>
+                    <span class="total-price">1799.00 лв.</span>
+                </div>
+                <ul class="text-center cart-buttons">
+                    <li><a href="cart.html" class="btn btn-small">Виж количка</a></li>
+                    <li><a href="checkout.html" class="btn btn-small btn-solid-border">Плащане</a></li>
+                </ul>
+            </div>
+        </li>
 
-		</li><!-- / Cart -->
-		<!-- Search -->
 		<li class="dropdown search dropdown-slide">
-			<a href="#!" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"><i class="fa-solid fa-right-to-bracket"></i> Влез/Регистрирай се</a>
+			<a asp-page="/Identity/Account/Login" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"><i class="fa-solid fa-right-to-bracket"></i> Влез</a>
 			<ul class="dropdown-menu search-dropdown">
 				<li>
 					<form action="post"><input type="search" class="form-control" placeholder="Search..."></form>
 				</li>
 			</ul>
-		</li><!-- / Search -->
-	</ul><!-- / .nav .navbar-nav .navbar-right -->
+		</li>
+	</ul>
 </div>

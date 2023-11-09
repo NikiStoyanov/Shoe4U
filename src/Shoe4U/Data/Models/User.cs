@@ -4,9 +4,9 @@ using Microsoft.AspNetCore.Identity;
 
 public class User : IdentityUser<int>
 {
-    public DateTime DateOfBirth { get; set; }
+    public DateTime? DateOfBirth { get; set; }
 
-    public string Address { get; set; }
+    public string? Address { get; set; }
 
     public ICollection<Review> Reviews { get; set; } = new HashSet<Review>();
 

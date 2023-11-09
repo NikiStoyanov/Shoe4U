@@ -1,38 +1,30 @@
 ﻿@page
 @model RegisterModel
-@{
-    ViewData["Title"] = "Register";
-}
-
-<h2>@ViewData["Title"]</h2>
 
 <section class="signin-page account">
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
                 <div class="block text-center">
-                    <a class="logo" href="index.html">
-                        <img src="images/logo.png" alt="">
-                    </a>
                     <h2 class="text-center">Регистрация</h2>
-                    <form class="text-left clearfix" action="index.html">
+                    <form class="text-left clearfix" method="post" >
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Име">
+                            <input type="text" class="form-control" placeholder="Име" asp-for="Input.Name">
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control" placeholder="Email">
+                            <input type="email" class="form-control" placeholder="Email" asp-for="Input.Email">
                         </div>
                         <div class="form-group">
-                            <input type="password" class="form-control" placeholder="Парола">
+                            <input type="password" class="form-control" placeholder="Парола" asp-for="Input.Password">
                         </div>
                         <div class="form-group">
-                            <input type="password" class="form-control" placeholder="Потвърди парола">
+                            <input type="password" class="form-control" placeholder="Потвърди парола" asp-for="Input.ConfirmPassword">
                         </div>
                         <div class="text-center">
                             <button type="submit" class="btn btn-main text-center">Регистрация</button>
                         </div>
                     </form>
-                    <p class="mt-20">Вече имаш акаунт?<a href="signin.html"> Влез в него.</a></p>
+                    <p class="mt-20">Вече имаш акаунт?<a> Влез в него.</a></p>
                 </div>
             </div>
         </div>
