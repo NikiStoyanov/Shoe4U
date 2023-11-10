@@ -1,7 +1,5 @@
 using Microsoft.EntityFrameworkCore;
 using Shoe4U.Data;
-using Microsoft.AspNetCore.Identity;
-using Shoe4U.Data.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,15 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<Shoe4UDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-builder.Services
-    .AddDefaultIdentity<User>(options => 
-        options.SignIn.RequireConfirmedAccount = true)
-    .AddEntityFrameworkStores<Shoe4UDbContext>()
-    .AddDefaultTokenProviders();
-
 builder.Services.AddControllersWithViews();
-
-builder.Services.AddRazorPages();
 
 var app = builder.Build();
 
@@ -34,12 +24,10 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-app.MapRazorPages();
 
 app.Run();

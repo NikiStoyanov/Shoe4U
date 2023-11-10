@@ -1,18 +1,17 @@
-﻿using Microsoft.AspNetCore.Identity;
-
-namespace Shoe4U.Data;
+﻿namespace Shoe4U.Data;
 
 using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Models;
 
-public class Shoe4UDbContext : IdentityDbContext<User, IdentityRole<int>, int>
+public class Shoe4UDbContext : DbContext
 {
     public Shoe4UDbContext(DbContextOptions<Shoe4UDbContext> options)
         : base(options)
     {
         
     }
+
+    public DbSet<User> Users { get; set; }
 
     public DbSet<Product> Products { get; set; }
 
