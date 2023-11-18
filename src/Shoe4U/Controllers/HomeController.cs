@@ -8,5 +8,5 @@ public class HomeController : Controller
     public IActionResult Index() => this.View();
 
     [HttpGet]
-    public IActionResult Privacy() => this.View();
+    public IActionResult Contacts() => this.View();
 }
