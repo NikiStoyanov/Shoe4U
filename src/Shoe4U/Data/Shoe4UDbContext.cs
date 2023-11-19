@@ -1,9 +1,10 @@
 ﻿namespace Shoe4U.Data;
 
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Models;
 
-public class Shoe4UDbContext : DbContext
+public class Shoe4UDbContext : IdentityDbContext<User>
 {
     public Shoe4UDbContext(DbContextOptions<Shoe4UDbContext> options)
         : base(options)

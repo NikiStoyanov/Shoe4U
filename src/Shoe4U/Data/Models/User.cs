@@ -1,9 +1,9 @@
 ﻿namespace Shoe4U.Data.Models;
 
-public class User
-{
-    public int Id { get; set; }
+using Microsoft.AspNetCore.Identity;
 
+public class User : IdentityUser
+{
     public string Name { get; set; }
 
     public string Email { get; set; }
