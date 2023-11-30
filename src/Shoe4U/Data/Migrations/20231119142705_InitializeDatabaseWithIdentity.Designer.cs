@@ -12,7 +12,7 @@ using Shoe4U.Data;
 namespace Shoe4U.Data.Migrations
 {
     [DbContext(typeof(Shoe4UDbContext))]
-    [Migration("20231119133234_InitializeDatabaseWithIdentity")]
+    [Migration("20231119142705_InitializeDatabaseWithIdentity")]
     partial class InitializeDatabaseWithIdentity
     {
         /// <inheritdoc />
