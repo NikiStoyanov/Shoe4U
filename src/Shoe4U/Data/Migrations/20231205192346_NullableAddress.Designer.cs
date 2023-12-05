@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Shoe4U.Data;
 
@@ -11,9 +12,11 @@ using Shoe4U.Data;
 namespace Shoe4U.Data.Migrations
 {
     [DbContext(typeof(Shoe4UDbContext))]
-    partial class Shoe4UDbContextModelSnapshot : ModelSnapshot
+    [Migration("20231205192346_NullableAddress")]
+    partial class NullableAddress
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

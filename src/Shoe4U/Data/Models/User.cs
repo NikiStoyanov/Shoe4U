@@ -14,7 +14,7 @@ public class User : IdentityUser
 
     public DateTime DateOfBirth { get; set; }
 
-    public string Address { get; set; }
+    public string? Address { get; set; }
 
     public ICollection<Review> Reviews { get; set; } = new HashSet<Review>();
 
