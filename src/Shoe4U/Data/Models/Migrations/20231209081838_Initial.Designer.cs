@@ -9,11 +9,11 @@ using Shoe4U.Data;
 
 #nullable disable
 
-namespace Shoe4U.Data.Migrations
+namespace Shoe4U.Migrations
 {
     [DbContext(typeof(Shoe4UDbContext))]
-    [Migration("20231205192346_NullableAddress")]
-    partial class NullableAddress
+    [Migration("20231209081838_Initial")]
+    partial class Initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -325,7 +325,6 @@ namespace Shoe4U.Data.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Email")
-                        .IsRequired()
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
 
@@ -358,7 +357,6 @@ namespace Shoe4U.Data.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PhoneNumber")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("PhoneNumberConfirmed")

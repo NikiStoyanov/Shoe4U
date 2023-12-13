@@ -70,9 +70,18 @@
                                 </ul>
                             </div>
                         </li>
-                        <li class="dropdown search dropdown-slide">
-                            <a asp-area="Identity" asp-page="/Account/Login"><i class="fa-solid fa-right-to-bracket"></i> Вход</a>
-                        </li>
+                        @if (!this.User.Identity.IsAuthenticated)
+                        {
+                            <li class="dropdown search dropdown-slide">
+                                <a asp-area="Identity" asp-page="/Account/Login"><i class="fa-solid fa-right-to-bracket"></i> Вход</a>
+                            </li>  
+                        }
+                        else
+                        {
+                            <li class="dropdown search dropdown-slide">
+                                <a asp-controller="Home" asp-action="Index"><i class="fa-solid fa-user"></i> Профил</a>
+                            </li>
+                        }
                     </ul>
                 </div>
             </div>

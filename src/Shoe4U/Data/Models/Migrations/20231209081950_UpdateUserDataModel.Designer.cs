@@ -9,11 +9,11 @@ using Shoe4U.Data;
 
 #nullable disable
 
-namespace Shoe4U.Data.Migrations
+namespace Shoe4U.Migrations
 {
     [DbContext(typeof(Shoe4UDbContext))]
-    [Migration("20231119142705_InitializeDatabaseWithIdentity")]
-    partial class InitializeDatabaseWithIdentity
+    [Migration("20231209081950_UpdateUserDataModel")]
+    partial class UpdateUserDataModel
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -315,7 +315,6 @@ namespace Shoe4U.Data.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Address")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ConcurrencyStamp")
@@ -326,7 +325,6 @@ namespace Shoe4U.Data.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Email")
-                        .IsRequired()
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
 
@@ -351,15 +349,10 @@ namespace Shoe4U.Data.Migrations
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
 
-                    b.Property<string>("Password")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("PasswordHash")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PhoneNumber")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("PhoneNumberConfirmed")

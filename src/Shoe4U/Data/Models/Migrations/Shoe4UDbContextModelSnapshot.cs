@@ -8,7 +8,7 @@ using Shoe4U.Data;
 
 #nullable disable
 
-namespace Shoe4U.Data.Migrations
+namespace Shoe4U.Migrations
 {
     [DbContext(typeof(Shoe4UDbContext))]
     partial class Shoe4UDbContextModelSnapshot : ModelSnapshot
@@ -322,7 +322,6 @@ namespace Shoe4U.Data.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Email")
-                        .IsRequired()
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
 
@@ -347,15 +346,10 @@ namespace Shoe4U.Data.Migrations
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
 
-                    b.Property<string>("Password")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("PasswordHash")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PhoneNumber")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("PhoneNumberConfirmed")
