@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace Shoe4U.Migrations
+namespace Shoe4U.Data.Migrations
 {
     /// <inheritdoc />
     public partial class Initial : Migration
@@ -31,10 +31,6 @@ namespace Shoe4U.Migrations
                 {
                     Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
-<<<<<<<< HEAD:src/Shoe4U/Data/Models/Migrations/20240103203400_Initial.cs
-========
-                    Password = table.Column<string>(type: "nvarchar(max)", nullable: false),
->>>>>>>> a4c7d4b8742f3e7a95191f7eaffb080eb54e56ac:src/Shoe4U/Data/Models/Migrations/20231209081838_Initial.cs
                     DateOfBirth = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Address = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     UserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
@@ -275,17 +271,17 @@ namespace Shoe4U.Migrations
             migrationBuilder.InsertData(
                 table: "AspNetRoles",
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
-                values: new object[] { "3f3912af-a489-4f31-8a8e-04a9c7573bd4", "3f3912af-a489-4f31-8a8e-04a9c7573bd4", "Administrator", "ADMINISTRATOR" });
+                values: new object[] { "2132daae-18bc-4c43-9481-b420af312d7d", "2132daae-18bc-4c43-9481-b420af312d7d", "Administrator", "ADMINISTRATOR" });
 
             migrationBuilder.InsertData(
                 table: "AspNetUsers",
                 columns: new[] { "Id", "AccessFailedCount", "Address", "ConcurrencyStamp", "DateOfBirth", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "Name", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
-                values: new object[] { "0f53ea17-9025-41b2-9d14-2ae6663ceb29", 0, null, "7b7c024f-b4d7-443d-85fb-cb4a722b5442", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "admin@shoe4u.bg", true, false, null, "Shoe4U Administrator", "ADMIN@SHOE4U.BG", "ADMIN@SHOE4U.BG", "AQAAAAIAAYagAAAAEGuRWdDRVWXDPUi5nty9jUaFY0INPWD3aN/FU+ExUK/s6pZr7VzFkEw+8nkYfy/WDA==", null, false, "a2e72b03-2a26-4625-aa1d-6f3c0e8a748e", false, "admin@shoe4u.bg" });
+                values: new object[] { "212e3e1b-eef5-4a50-bccb-ad6595d33829", 0, null, "7c0cfbcb-cc73-4869-914c-b1be78551074", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "admin@shoe4u.bg", true, false, null, "Shoe4U Administrator", "ADMIN@SHOE4U.BG", "ADMIN@SHOE4U.BG", "AQAAAAIAAYagAAAAEHATQzF8CM/GW7LYpyWSrHJnJWOQhmRb0/0nTGi5LZbvQW2//owlxjngBfGfntx6sQ==", null, false, "b9c8c355-874a-4075-bf28-fe7846275e90", false, "admin@shoe4u.bg" });
 
             migrationBuilder.InsertData(
                 table: "AspNetUserRoles",
                 columns: new[] { "RoleId", "UserId" },
-                values: new object[] { "3f3912af-a489-4f31-8a8e-04a9c7573bd4", "0f53ea17-9025-41b2-9d14-2ae6663ceb29" });
+                values: new object[] { "2132daae-18bc-4c43-9481-b420af312d7d", "212e3e1b-eef5-4a50-bccb-ad6595d33829" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",

@@ -9,16 +9,11 @@ using Shoe4U.Data;
 
 #nullable disable
 
-namespace Shoe4U.Migrations
+namespace Shoe4U.Data.Migrations
 {
     [DbContext(typeof(Shoe4UDbContext))]
-<<<<<<<< HEAD:src/Shoe4U/Data/Models/Migrations/20240103203400_Initial.Designer.cs
-    [Migration("20240103203400_Initial")]
+    [Migration("20240104172005_Initial")]
     partial class Initial
-========
-    [Migration("20231209081950_UpdateUserDataModel")]
-    partial class UpdateUserDataModel
->>>>>>>> a4c7d4b8742f3e7a95191f7eaffb080eb54e56ac:src/Shoe4U/Data/Models/Migrations/20231209081950_UpdateUserDataModel.Designer.cs
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -59,8 +54,8 @@ namespace Shoe4U.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "3f3912af-a489-4f31-8a8e-04a9c7573bd4",
-                            ConcurrencyStamp = "3f3912af-a489-4f31-8a8e-04a9c7573bd4",
+                            Id = "2132daae-18bc-4c43-9481-b420af312d7d",
+                            ConcurrencyStamp = "2132daae-18bc-4c43-9481-b420af312d7d",
                             Name = "Administrator",
                             NormalizedName = "ADMINISTRATOR"
                         });
@@ -157,8 +152,8 @@ namespace Shoe4U.Migrations
                     b.HasData(
                         new
                         {
-                            UserId = "0f53ea17-9025-41b2-9d14-2ae6663ceb29",
-                            RoleId = "3f3912af-a489-4f31-8a8e-04a9c7573bd4"
+                            UserId = "212e3e1b-eef5-4a50-bccb-ad6595d33829",
+                            RoleId = "2132daae-18bc-4c43-9481-b420af312d7d"
                         });
                 });
 
@@ -404,9 +399,9 @@ namespace Shoe4U.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "0f53ea17-9025-41b2-9d14-2ae6663ceb29",
+                            Id = "212e3e1b-eef5-4a50-bccb-ad6595d33829",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "7b7c024f-b4d7-443d-85fb-cb4a722b5442",
+                            ConcurrencyStamp = "7c0cfbcb-cc73-4869-914c-b1be78551074",
                             DateOfBirth = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "admin@shoe4u.bg",
                             EmailConfirmed = true,
@@ -414,9 +409,9 @@ namespace Shoe4U.Migrations
                             Name = "Shoe4U Administrator",
                             NormalizedEmail = "ADMIN@SHOE4U.BG",
                             NormalizedUserName = "ADMIN@SHOE4U.BG",
-                            PasswordHash = "AQAAAAIAAYagAAAAEGuRWdDRVWXDPUi5nty9jUaFY0INPWD3aN/FU+ExUK/s6pZr7VzFkEw+8nkYfy/WDA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEHATQzF8CM/GW7LYpyWSrHJnJWOQhmRb0/0nTGi5LZbvQW2//owlxjngBfGfntx6sQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "a2e72b03-2a26-4625-aa1d-6f3c0e8a748e",
+                            SecurityStamp = "b9c8c355-874a-4075-bf28-fe7846275e90",
                             TwoFactorEnabled = false,
                             UserName = "admin@shoe4u.bg"
                         });
