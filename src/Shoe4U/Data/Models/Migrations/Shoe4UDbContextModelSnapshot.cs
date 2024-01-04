@@ -3,20 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
-using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Shoe4U.Data;
 
 #nullable disable
 
-namespace Shoe4U.Data.Migrations
+namespace Shoe4U.Migrations
 {
     [DbContext(typeof(Shoe4UDbContext))]
-    [Migration("20240103203400_Initial")]
-    partial class Initial
+    partial class Shoe4UDbContextModelSnapshot : ModelSnapshot
     {
-        /// <inheritdoc />
-        protected override void BuildTargetModel(ModelBuilder modelBuilder)
+        protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

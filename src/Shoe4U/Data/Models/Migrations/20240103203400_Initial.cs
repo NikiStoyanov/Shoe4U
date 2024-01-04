@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace Shoe4U.Data.Migrations
+namespace Shoe4U.Migrations
 {
     /// <inheritdoc />
     public partial class Initial : Migration
@@ -31,6 +31,10 @@ namespace Shoe4U.Data.Migrations
                 {
                     Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
+<<<<<<<< HEAD:src/Shoe4U/Data/Models/Migrations/20240103203400_Initial.cs
+========
+                    Password = table.Column<string>(type: "nvarchar(max)", nullable: false),
+>>>>>>>> a4c7d4b8742f3e7a95191f7eaffb080eb54e56ac:src/Shoe4U/Data/Models/Migrations/20231209081838_Initial.cs
                     DateOfBirth = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Address = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     UserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),

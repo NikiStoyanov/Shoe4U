@@ -3,17 +3,25 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Shoe4U.Data;
 
 #nullable disable
 
-namespace Shoe4U.Data.Migrations
+namespace Shoe4U.Migrations
 {
     [DbContext(typeof(Shoe4UDbContext))]
-    partial class Shoe4UDbContextModelSnapshot : ModelSnapshot
+<<<<<<<< HEAD:src/Shoe4U/Data/Models/Migrations/20240103203400_Initial.Designer.cs
+    [Migration("20240103203400_Initial")]
+    partial class Initial
+========
+    [Migration("20231209081950_UpdateUserDataModel")]
+    partial class UpdateUserDataModel
+>>>>>>>> a4c7d4b8742f3e7a95191f7eaffb080eb54e56ac:src/Shoe4U/Data/Models/Migrations/20231209081950_UpdateUserDataModel.Designer.cs
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
