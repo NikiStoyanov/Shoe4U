@@ -1,5 +1,6 @@
 ﻿namespace Shoe4U.Data;
 
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Models;
@@ -53,5 +54,42 @@ public class Shoe4UDbContext : IdentityDbContext<User>
             .HasOne(op => op.Product)
             .WithMany(p => p.OrderProducts)
             .HasForeignKey(op => op.ProductId);
+
+        var roleId = Guid.NewGuid().ToString();
+
+        modelBuilder.Entity<IdentityRole>()
+            .HasData(new IdentityRole
+            {
+                Id = roleId,
+                Name = "Administrator",
+                NormalizedName = "ADMINISTRATOR",
+                ConcurrencyStamp = roleId
+            });
+
+        var adminId = Guid.NewGuid().ToString();
+
+        var admin = new User()
+        {
+            Id = adminId,
+            Email = "admin@shoe4u.bg",
+            NormalizedEmail = "ADMIN@SHOE4U.BG",
+            EmailConfirmed = true,
+            Name = "Shoe4U Administrator",
+            UserName = "admin@shoe4u.bg",
+            NormalizedUserName = "ADMIN@SHOE4U.BG"
+		};
+
+        PasswordHasher<User> ph = new PasswordHasher<User>();
+        admin.PasswordHash = ph.HashPassword(admin, "Admin_Shoe4U_2023");
+
+        modelBuilder.Entity<User>()
+            .HasData(admin);
+
+        modelBuilder.Entity<IdentityUserRole<string>>()
+            .HasData(new IdentityUserRole<string>
+            {
+                RoleId = roleId,
+                UserId = adminId
+            });
     }
 }

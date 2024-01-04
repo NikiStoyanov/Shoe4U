@@ -1,7 +1,7 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Shoe4U.Data;
 using Shoe4U.Data.Models;
-using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,7 +9,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<Shoe4UDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-builder.Services.AddDefaultIdentity<User>(options => options.SignIn.RequireConfirmedAccount = false)
+builder.Services
+	.AddDefaultIdentity<User>(options => options.SignIn.RequireConfirmedAccount = false)
+	.AddRoles<IdentityRole>()
 	.AddEntityFrameworkStores<Shoe4UDbContext>();
 
 builder.Services.AddRazorPages();

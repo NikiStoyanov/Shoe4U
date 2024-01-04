@@ -47,6 +47,15 @@ namespace Shoe4U.Data.Migrations
                         .HasFilter("[NormalizedName] IS NOT NULL");
 
                     b.ToTable("AspNetRoles", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "3f3912af-a489-4f31-8a8e-04a9c7573bd4",
+                            ConcurrencyStamp = "3f3912af-a489-4f31-8a8e-04a9c7573bd4",
+                            Name = "Administrator",
+                            NormalizedName = "ADMINISTRATOR"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -136,6 +145,13 @@ namespace Shoe4U.Data.Migrations
                     b.HasIndex("RoleId");
 
                     b.ToTable("AspNetUserRoles", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            UserId = "0f53ea17-9025-41b2-9d14-2ae6663ceb29",
+                            RoleId = "3f3912af-a489-4f31-8a8e-04a9c7573bd4"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
@@ -322,7 +338,6 @@ namespace Shoe4U.Data.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Email")
-                        .IsRequired()
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
 
@@ -347,15 +362,10 @@ namespace Shoe4U.Data.Migrations
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
 
-                    b.Property<string>("Password")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("PasswordHash")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PhoneNumber")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("PhoneNumberConfirmed")
@@ -382,6 +392,26 @@ namespace Shoe4U.Data.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "0f53ea17-9025-41b2-9d14-2ae6663ceb29",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "7b7c024f-b4d7-443d-85fb-cb4a722b5442",
+                            DateOfBirth = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "admin@shoe4u.bg",
+                            EmailConfirmed = true,
+                            LockoutEnabled = false,
+                            Name = "Shoe4U Administrator",
+                            NormalizedEmail = "ADMIN@SHOE4U.BG",
+                            NormalizedUserName = "ADMIN@SHOE4U.BG",
+                            PasswordHash = "AQAAAAIAAYagAAAAEGuRWdDRVWXDPUi5nty9jUaFY0INPWD3aN/FU+ExUK/s6pZr7VzFkEw+8nkYfy/WDA==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "a2e72b03-2a26-4625-aa1d-6f3c0e8a748e",
+                            TwoFactorEnabled = false,
+                            UserName = "admin@shoe4u.bg"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

@@ -1,0 +1,44 @@
+﻿<section class="page-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="content">
+                    <h1 class="page-name">Детайли за профила</h1>
+                    <ol class="breadcrumb">
+                        <li><a asp-controller="Home" asp-action="Index">Начало</a></li>
+                        <li class="active">Детайли за профила</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="user-dashboard page-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="list-inline dashboard-menu text-center">
+                    <li><a asp-action="Dashboard">Табло</a></li>
+                    <li><a asp-action="Orders">Поръчки</a></li>
+                    @if (User.IsInRole("Administrator"))
+                    {
+                        <li><a asp-controller="Products" asp-action="Add">Добави продукт</a></li>
+                    }
+                    <li><a asp-action="Details" class="active">Детайли за профила</a></li>
+                </ul>
+                <div class="dashboard-wrapper dashboard-user-profile">
+                    <div class="media">
+                        <div class="media-body">
+                            <ul class="user-profile-list">
+                                <li><span>Име:</span>Иван Петров</li>
+                                <li><span>Имейл:</span>mail@gmail.com</li>
+                                <li><span>Телефонен номер:</span>089 528 7458</li>
+                                <li><span>Дата на раждане:</span>22. 12. 1993 г.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
