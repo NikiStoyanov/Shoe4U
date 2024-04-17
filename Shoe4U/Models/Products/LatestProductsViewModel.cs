@@ -1,6 +1,6 @@
-﻿namespace Shoe4U.ViewModels.Products;
+﻿namespace Shoe4U.Models.Products;
 
-public class LastThreeProductsViewModel
+public class LatestProductsViewModel
 {
     public int Id { get; set; }
 

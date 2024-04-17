@@ -4,68 +4,74 @@
 }
 
 <section class="single-product">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-6">
-				<ol class="breadcrumb">
-					<li><a asp-controller="Home" asp-action="Index">Начало</a></li>
-					<li><a asp-action="All">Магазин</a></li>
-					<li class="active">Продукт</li>
-				</ol>
-			</div>
-		</div>
-		<div class="row mt-20">
-			<div class="col-md-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <ol class="breadcrumb">
+                    <li><a asp-controller="Home" asp-action="Index">Начало</a></li>
+                    <li><a asp-action="All">Магазин</a></li>
+                    <li class="active">Продукт</li>
+                </ol>
+            </div>
+        </div>
+        <div class="row mt-20">
+            <div class="col-md-5">
                 <div class="single-product-slider">
-					<img src="@Model.Product.ImageUrl" width="450px" data-zoom-image="@Model.Product.ImageUrl" />
+                    <img src="@Model.Product.ImageUrl" width="450px" data-zoom-image="@Model.Product.ImageUrl" />
                 </div>
-			</div>
-			<div class="col-md-7">
-				<div class="single-product-details">
-					<h2>@Model.Product.Name</h2>
-					<p class="product-price">@Model.Product.Price лв.</p>
-					<p class="product-price">Размер: @Model.Product.Size</p>
-					<p class="product-price">Цвят: @Model.Product.Color</p>
-					<p class="product-price">Марка: @Model.Product.Brand</p>
-					<p class="product-price">Материал: @Model.Product.Material</p>
-
-					@if (Model.IsCurrentProductInCart)
-					{
-					    <form method="get" asp-action="RemoveFromCart" asp-route-id="@Model.Product.Id">
-                            <button class="btn btn-main mt-20" type="submit">Премахни от количката</button>
-                        </form>
-					}
-					else
-					{
-					    <form method="post" asp-action="AddToCart" asp-route-id="@Model.Product.Id">
-                            <button class="btn btn-main mt-20" type="submit">Добави към количката</button>
-                        </form>
-					}
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-xs-12">
-				<div class="tabCommon mt-20">
-					<ul class="nav nav-tabs">
-						<li class="active">
-							<a data-toggle="tab" href="#details" aria-expanded="true">Детайли</a>
-						</li>
-						<li class=""><a data-toggle="tab" href="#reviews" aria-expanded="false">Ревюта (@Model.Product.Reviews.Count)</a></li>
-					</ul>
-					<div class="tab-content patternbg">
-						<div id="details" class="tab-pane fade active in">
-							<h4>Описание на продукта</h4>
-							<p>
-								@Model.Product.Description
-							</p>
-						</div>
-						<div id="reviews" class="tab-pane fade">
+            </div>
+            <div class="col-md-7">
+                <div class="single-product-details">
+                    <h2>@Model.Product.Name</h2>
+                    <p class="product-price">@Model.Product.Price лв.</p>
+                    <p class="product-price">Размер: @Model.Product.Size</p>
+                    <p class="product-price">Цвят: @Model.Product.Color</p>
+                    <p class="product-price">Марка: @Model.Product.Brand</p>
+                    <p class="product-price">Материал: @Model.Product.Material</p>
+                    @if (@Model.Product.Quantity == 0)
+                    {
+                        <p class="product-price text-danger">Изчерпана наличност</p>
+                    }
+                    else if (this.User.Identity.IsAuthenticated)
+                    {
+                        @if (Model.IsCurrentProductInCart)
+                        {
+                            <form method="get" asp-action="RemoveFromCart" asp-route-id="@Model.Product.Id">
+                                <button class="btn btn-main mt-20" type="submit">Премахни от количката</button>
+                            </form>
+                        }
+                        else
+                        {
+                            <form method="post" asp-action="AddToCart" asp-route-id="@Model.Product.Id">
+                                <button class="btn btn-main mt-20" type="submit">Добави към количката</button>
+                            </form>
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="tabCommon mt-20">
+                    <ul class="nav nav-tabs">
+                        <li class="active">
+                            <a data-toggle="tab" href="#details" aria-expanded="true">Детайли</a>
+                        </li>
+                        <li class=""><a data-toggle="tab" href="#reviews" aria-expanded="false">Ревюта (@Model.Product.Reviews.Count)</a></li>
+                    </ul>
+                    <div class="tab-content patternbg">
+                        <div id="details" class="tab-pane fade active in">
+                            <h4>Описание на продукта</h4>
+                            <p>
+                                @Model.Product.Description
+                            </p>
+                        </div>
+                        <div id="reviews" class="tab-pane fade">
                             <div class="post-comments">
                                 <ul class="media-list comments-list m-bot-50 clearlist">
-									@foreach (var review in @Model.Product.Reviews)
-									{
-									    <li class="media">
+                                    @foreach (var review in @Model.Product.Reviews)
+                                    {
+                                        <li class="media">
                                             <div class="media-body">
                                                 <div class="comment-info">
                                                     <h4 class="comment-author">@review.UserName</h4>
@@ -75,31 +81,37 @@
                                                 <p>@review.Content</p>
                                             </div>
                                         </li>
-									}
+                                    }
                                 </ul>
                             </div>
-							@if (this.User.Identity.IsAuthenticated)
-							{
-							    <div>
+                            @if (Model.IsCurrentProductPurchasedBefore)
+                            {
+                                <div>
                                     <h3>Добави ревю</h3>
                                     <form id="contact-form" method="post" asp-controller="Reviews" asp-action="Create" role="form" enctype="multipart/form-data">
+                                        <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
                                         <input type="hidden" asp-for="ProductId" value="@Model.Product.Id"/>
 
                                         <div class="form-group">
-                                            <textarea rows="6" asp-for="Content" placeholder="Твоят коментар..." class="form-control" name="content"></textarea>
+                                            <textarea rows="6" asp-for="Content" placeholder="Твоят коментар..." class="form-control"></textarea>
+                                            <span asp-validation-for="Content" class="text-danger"></span>
                                         </div>
 									
                                         <div id="cf-submit">
-                                            <input type="submit" id="contact-submit" class="btn btn-transparent" value="Добави">
+                                            <button type="submit" id="contact-submit" class="btn btn-transparent">Добави</button>
                                         </div>
 
                                     </form>
                                 </div>
-							}
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

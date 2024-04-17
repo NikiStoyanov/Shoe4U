@@ -31,9 +31,6 @@
                 </div>
                 <div class="col-md-6 col-xs-12 col-sm-6">
                     <ul class="top-menu text-right list-inline">
-                        <li class="dropdown cart-nav dropdown-slide">
-                            <a asp-controller="Products" asp-action="Cart"><i class="tf-ion-android-cart"></i> Количка</a>
-                        </li>
                         @if (!this.User.Identity.IsAuthenticated)
                         {
                             <li class="dropdown search dropdown-slide">
@@ -42,6 +39,9 @@
                         }
                         else
                         {
+                            <li class="dropdown cart-nav dropdown-slide">
+                                <a asp-controller="Products" asp-action="Cart"><i class="tf-ion-android-cart"></i> Количка</a>
+                            </li>
                             <li class="dropdown search dropdown-slide">
                                 <a asp-controller="Users" asp-action="Details"><i class="fa-solid fa-user"></i> Профил</a>
                             </li>
@@ -116,6 +116,7 @@
                         <li><a asp-controller="Products" asp-action="All">Магазин</a></li>
                         <li><a asp-controller="Home" asp-action="Contacts">Контакти</a></li>
                     </ul>
+                    <p class="copyright-text">Copyright &copy;2021, Designed &amp; Developed by <a href="https://themefisher.com/">Themefisher</a></p>
                 </div>
             </div>
         </div>

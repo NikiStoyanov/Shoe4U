@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Models.Messages;
-using ViewModels.Products;
+using Models.Products;
 
 public class HomeController : Controller
 {
@@ -26,8 +26,8 @@ public class HomeController : Controller
         var products = await this.db.Products
             .Where(p => p.IsDeleted == false)
             .OrderByDescending(p => p.CreatedOn)
-            .Take(3)
-            .Select(product => new LastThreeProductsViewModel() 
+            .Take(4)
+            .Select(product => new LatestProductsViewModel() 
             {
                 Id = product.Id,
                 Name = product.Name,

@@ -16,59 +16,72 @@
 	</div>
 </section>
 <div class="page-wrapper">
-	<div class="checkout shopping">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8">
-					<div class="block billing-details">
-						<h4 class="widget-title">Информация за клиента</h4>
-						<form class="checkout-form">
-							<div class="form-group">
-								<label>Телефонен номер</label>
-								<input type="text" class="form-control" asp-for="PhoneNumber" placeholder="">
-							</div>
-							<div class="form-group">
-								<label>Адрес</label>
-								<input type="text" class="form-control" asp-for="Address" placeholder="">
-							</div>
-							<div id="cf-submit">
-								<a asp-action="Confirmation">
-									<input id="contact-submit" class="btn btn-transparent" value="Поръчай">
-								</a>
-							</div>
-						</form>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="product-checkout-details">
-						<div class="block">
-							<h4 class="widget-title">Поръчка</h4>
-							<div class="media product-card">
-                                <img class="media-object" src="~/images/shop/cart/cart-1.jpg" alt="Снимка на продукта" />
+    <div class="checkout shopping">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="block billing-details">
+                        <h4 class="widget-title">Информация за клиента</h4>
+                        <form class="checkout-form" asp-action="Create" method="post">
+                            <input type="hidden" asp-for="TotalPrice">
+
+                            <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+                            <div class="form-group">
+                                <label>Телефонен номер</label>
+                                <input type="text" class="form-control" asp-for="PhoneNumber" placeholder="">
+                                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label>Адрес</label>
+                                <input type="text" class="form-control" asp-for="Address" placeholder="">
+                                <span asp-validation-for="Address" class="text-danger"></span>
+                            </div>
+                            <div id="cf-submit">
+                                <button type="submit" class="btn btn-transparent">
+                                    Поръчай
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="product-checkout-details">
+                        <div class="block">
+                            <h4 class="widget-title">Поръчка</h4>
+                            @foreach (var product in Model.Products)
+                            {
+                                <div class="media product-card" style="display: flex; gap: 20px">
+                                    <img class="media-object" src="@product.ImageUrl" alt="Снимка на продукта" />
                                 
-                                <div class="media-body">
-									<h4 class="media-heading">Зимни обувки</h4>
-									<p class="price">1 x 89 лв.</p>
-								</div>
-							</div>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">@product.Name</h4>
+                                        <p class="price">1 x @product.Price лв.</p>
+                                    </div>
+                                </div>
+                            }
+							
                             <ul class="summary-prices">
                                 <li>
                                     <span>Данъчна основа:</span>
-                                    <span class="price">190 лв.</span>
+                                    <span class="price">@Math.Round(Model.TotalPrice * 80 / 100, 2) лв.</span>
                                 </li>
                                 <li>
                                     <span>ДДС:</span>
-									<span class="price">190 лв.</span>
+                                    <span class="price">@Math.Round(Model.TotalPrice * 20 / 100, 2) лв.</span>
                                 </li>
                             </ul>
                             <div class="summary-total">
                                 <span>Общо</span>
-                                <span>250 лв.</span>
+                                <span>@Model.TotalPrice лв.</span>
                             </div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

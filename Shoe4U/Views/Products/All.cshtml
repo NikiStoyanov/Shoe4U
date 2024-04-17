@@ -69,7 +69,7 @@
                 </div>
             }
         </div>
-        @if (Model.ListName == "Количка")
+        @if (Model.ListName == "Количка" && Model.Products.Any())
         {
             <div class="row">
                 <a asp-controller="Orders" asp-action="Overview">Поръчай</a>

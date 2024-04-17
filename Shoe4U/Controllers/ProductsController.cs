@@ -12,6 +12,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Models.Products;
 using Models.Reviews;
+using System.Security.Claims;
 
 public class ProductsController : Controller
 {
@@ -87,7 +88,7 @@ public class ProductsController : Controller
 
         var model = new CreateReviewInputModel
         {
-            IsCurrentProductInCart = user.Basket.Contains(id.ToString()),
+            IsCurrentProductInCart = user?.Basket.Contains(id.ToString()) ?? false,
             Product = new ProductDetailsViewModel()
             {
                 Brand = product.Brand,
@@ -113,6 +114,20 @@ public class ProductsController : Controller
             }
         };
 
+        var orders = await this.data.Orders
+	        .Where(o => o.UserId == this.User.FindFirst(ClaimTypes.NameIdentifier).Value).ToListAsync();
+
+        foreach (var order in orders)
+        {
+	        var orderProducts = await this.data.OrderProducts
+		        .Where(op => op.OrderId == order.Id && op.ProductId == id).ToListAsync();
+
+	        if (!model.IsCurrentProductPurchasedBefore)
+	        {
+				model.IsCurrentProductPurchasedBefore = orderProducts.Any();
+			}
+        }
+        
         return this.View(model);
     }
 

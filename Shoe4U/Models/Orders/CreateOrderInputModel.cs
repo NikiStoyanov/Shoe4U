@@ -1,6 +1,7 @@
 ﻿namespace Shoe4U.Models.Orders;
 
 using System.ComponentModel.DataAnnotations;
+using Products;
 
 public class CreateOrderInputModel
 {
@@ -11,4 +12,8 @@ public class CreateOrderInputModel
 
     [Required(ErrorMessage = "Полето е задължително.")]
     public string PhoneNumber { get; set; }
+
+    public decimal TotalPrice { get; set; }
+
+    public List<ProductDetailsViewModel> Products { get; set; } = new List<ProductDetailsViewModel>();
 }
