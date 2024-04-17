@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+
+<html lang="bg">
+<head>
+    <title>Shoe4U</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="~/plugins/themefisher-font/style.css">
+    <link rel="stylesheet" href="~/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/plugins/animate/animate.css">
+    <link rel="stylesheet" href="~/plugins/slick/slick.css">
+    <link rel="stylesheet" href="~/plugins/slick/slick-theme.css">
+    <link rel="stylesheet" href="~/css/style.css">
+</head>
+
+<body id="body">
+
+    <section class="top-header">
+        <div class="container">
+            <div class="row" style="display: flex; align-items: center">
+                <div class="col-md-6 col-xs-12 col-sm-6">
+                    <div class="logo">
+                        <a asp-controller="Home" asp-action="Index">
+                            <img height="50px" src="~/images/logo/logo.png" />
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xs-12 col-sm-6">
+                    <ul class="top-menu text-right list-inline">
+                        <li class="dropdown cart-nav dropdown-slide">
+                            <a asp-controller="Products" asp-action="Cart"><i class="tf-ion-android-cart"></i> Количка</a>
+                        </li>
+                        @if (!this.User.Identity.IsAuthenticated)
+                        {
+                            <li class="dropdown search dropdown-slide">
+                                <a asp-area="Identity" asp-page="/Account/Login"><i class="fa-solid fa-right-to-bracket"></i> Вход</a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="dropdown search dropdown-slide">
+                                <a asp-controller="Users" asp-action="Details"><i class="fa-solid fa-user"></i> Профил</a>
+                            </li>
+                            <li class="dropdown search dropdown-slide">
+                                <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                                    <button type="submit" class="btn btn-link" style="text-decoration: none; color: #333; font-size: 15px"><i class="fa-solid fa-sign-out"></i>  Излез</button>
+                                </form>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu">
+        <nav class="navbar navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <div id="navbar" class="navbar-collapse collapse text-center">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown"><a asp-controller="Home" asp-action="Index">Начало</a></li>
+                        <li class="dropdown dropdown-slide">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true" aria-expanded="false">Магазин <span class="tf-ion-ios-arrow-down"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a asp-controller="Products" asp-action="All">Всички</a></li>
+                                <li><a asp-controller="Products" asp-action="Males">Мъжки</a></li>
+                                <li><a asp-controller="Products" asp-action="Females">Дамски</a></li>
+                                <li><a asp-controller="Products" asp-action="Kids">Детски</a></li>
+                            </ul>
+                        </li>
+                        @if (this.User.IsInRole("Administrator"))
+                        {
+                            <li class="dropdown dropdown-slide">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true" aria-expanded="false">Администрация <span class="tf-ion-ios-arrow-down"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a asp-controller="Home" asp-action="Messages">Съобщения</a></li>
+                                    <li><a asp-controller="Products" asp-action="Add">Добави продукт</a></li>
+                                    <li><a asp-controller="Products" asp-action="All">Продукти</a></li>
+                                    <li><a asp-controller="Users" asp-action="Add">Добави потребител</a></li>
+                                    <li><a asp-controller="Users" asp-action="All">Потребители</a></li>
+                                    <li><a asp-controller="Products" asp-action="All">Поръчки</a></li>
+                                </ul>
+                            </li>
+                        }
+                        <li class="dropdown"><a asp-controller="Home" asp-action="Contacts">Контакти</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="footer section text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="footer-menu text-uppercase">
+                        <li><a asp-controller="Home" asp-action="Index">Начало</a></li>
+                        <li><a asp-controller="Products" asp-action="All">Магазин</a></li>
+                        <li><a asp-controller="Home" asp-action="Contacts">Контакти</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="~/plugins/jquery/dist/jquery.min.js"></script>
+    <script src="~/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/plugins/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min.js"></script>
+    <script src="~/plugins/instafeed/instafeed.min.js"></script>
+    <script src="~/plugins/ekko-lightbox/dist/ekko-lightbox.min.js"></script>
+    <script src="~/plugins/syo-timer/build/jquery.syotimer.min.js"></script>
+    <script src="~/plugins/slick/slick.min.js"></script>
+    <script src="~/plugins/slick/slick-animation.min.js"></script>
+    <script src="~/js/script.js"></script>
+    @RenderSection("Scripts", required: false);
+</body>
+</html>

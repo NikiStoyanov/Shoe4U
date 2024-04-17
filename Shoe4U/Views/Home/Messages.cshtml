@@ -1,0 +1,51 @@
+﻿@model List<Shoe4U.Models.Messages.MessageDetailsViewModel>
+
+<section class="page-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="content">
+                    <h1 class="page-name">Съобщения</h1>
+                    <ol class="breadcrumb">
+                        <li>Администрация</li>
+                        <li class="active">Съобщения</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="page-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="contact-messages">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Име</th>
+                            <th>Имейл</th>
+                            <th>Тема</th>
+                            <th>Съобщение</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        @foreach (var message in Model)
+                        {
+                            <tr>
+                                <td>@message.Id</td>
+                                <td>@message.Name</td>
+                                <td>@message.Email</td>
+                                <td>@message.Subject</td>
+                                <td>@message.Content</td>
+                            </tr>
+                        }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

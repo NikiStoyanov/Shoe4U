@@ -1,0 +1,74 @@
+﻿@model Shoe4U.Models.Orders.CreateOrderInputModel
+
+<section class="page-header">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="content">
+					<h1 class="page-name">Поръчка</h1>
+					<ol class="breadcrumb">
+						<li><a asp-controller="Home" asp-action="Index">Начало</a></li>
+						<li class="active">Поръчка</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<div class="page-wrapper">
+	<div class="checkout shopping">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="block billing-details">
+						<h4 class="widget-title">Информация за клиента</h4>
+						<form class="checkout-form">
+							<div class="form-group">
+								<label>Телефонен номер</label>
+								<input type="text" class="form-control" asp-for="PhoneNumber" placeholder="">
+							</div>
+							<div class="form-group">
+								<label>Адрес</label>
+								<input type="text" class="form-control" asp-for="Address" placeholder="">
+							</div>
+							<div id="cf-submit">
+								<a asp-action="Confirmation">
+									<input id="contact-submit" class="btn btn-transparent" value="Поръчай">
+								</a>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="product-checkout-details">
+						<div class="block">
+							<h4 class="widget-title">Поръчка</h4>
+							<div class="media product-card">
+                                <img class="media-object" src="~/images/shop/cart/cart-1.jpg" alt="Снимка на продукта" />
+                                
+                                <div class="media-body">
+									<h4 class="media-heading">Зимни обувки</h4>
+									<p class="price">1 x 89 лв.</p>
+								</div>
+							</div>
+                            <ul class="summary-prices">
+                                <li>
+                                    <span>Данъчна основа:</span>
+                                    <span class="price">190 лв.</span>
+                                </li>
+                                <li>
+                                    <span>ДДС:</span>
+									<span class="price">190 лв.</span>
+                                </li>
+                            </ul>
+                            <div class="summary-total">
+                                <span>Общо</span>
+                                <span>250 лв.</span>
+                            </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

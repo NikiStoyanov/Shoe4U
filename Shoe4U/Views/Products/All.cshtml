@@ -1,0 +1,79 @@
+﻿@model Shoe4U.Models.Products.ProductsListingModel
+
+<section class="page-header">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="content">
+                    <h1 class="page-name">@Model.ListName</h1>
+					<ol class="breadcrumb">
+						<li><a asp-controller="Products" asp-action="All">Магазин</a></li>
+						<li class="active">@Model.ListName</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="products section">
+	<div class="container">
+        <div class="row">
+            @foreach (var product in Model.Products)
+            {
+                <div class="col-md-3">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            @if ((DateTime.Now.Date - product.CreatedOn.Date).Days <= 3)
+                            {
+                                <span class="bage">НОВО</span>
+                            }
+
+                            @if (product.Quantity == 0)
+                            {
+                                <span class="bage">ИЗЧЕРПАН</span>
+                            }
+                            <img class="img-responsive" src="@product.ImageUrl" alt="product-img"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
+                                        <a asp-action="Details" asp-route-id="@product.Id"><i class="fa-solid fa-circle-info"></i></a>
+                                    </li>
+                                    @if (Model.ListName == "Количка")
+                                    {
+                                        <li>
+                                            <a role="button" asp-action="RemoveFromCart" asp-route-id="@product.Id">
+                                                <i class="fa-solid fa-xmark"></i>
+                                            </a>
+                                        </li>
+                                    }
+                                    @if (this.User.IsInRole("Administrator"))
+                                    {
+                                        <li>
+                                            <a asp-action="Edit" asp-route-id="@product.Id"><i class="fa-solid fa-pen"></i></a>
+                                        </li>
+                                        <li>
+                                            <a role="button" asp-action="Delete" asp-route-id="@product.Id">
+                                                <i class="fa-solid fa-trash"></i>
+                                            </a>
+                                        </li>
+                                    }
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h4><a asp-action="Details" asp-route-id="@product.Id">@product.Name</a></h4>
+                            <p class="price">@product.Price лв.</p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+        @if (Model.ListName == "Количка")
+        {
+            <div class="row">
+                <a asp-controller="Orders" asp-action="Overview">Поръчай</a>
+            </div>
+        }
+	</div>
+</section>

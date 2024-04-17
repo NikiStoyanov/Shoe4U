@@ -1,0 +1,40 @@
+﻿@model Shoe4U.Models.Users.UserDetailsViewModel
+
+<section class="page-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="content">
+                    <h1 class="page-name">Детайли за профила</h1>
+                    <ol class="breadcrumb">
+                        <li><a asp-action="Details">Профил</a></li>
+                        <li class="active">Детайли за профила</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="user-dashboard page-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="list-inline dashboard-menu text-center">
+                    <li><a asp-action="Details" class="active">Детайли за профила</a></li>
+                    <li><a asp-action="Orders">Поръчки</a></li>
+                </ul>
+                <div class="dashboard-wrapper dashboard-user-profile">
+                    <div class="media">
+                        <div class="media-body">
+                            <ul class="user-profile-list">
+                                <li><span>Име:</span>@Model.Name</li>
+                                <li><span>Имейл:</span>@Model.Email</li>
+                                <li><a asp-action="Edit">Редактирай</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
