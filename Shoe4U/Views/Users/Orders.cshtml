@@ -1,14 +1,15 @@
-﻿<section class="page-header">
+﻿@model List<Shoe4U.Models.Orders.OrderDetailsOutputModel>
+
+<section class="page-header">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
 				<div class="content">
 					<h1 class="page-name">Поръчки</h1>
-					<ol class="breadcrumb">
-						<li><a asp-controller="Home" asp-action="Index">Начало</a></li>
-						<li><a asp-action="Dashboard">Профил</a></li>
-						<li class="active">Поръчки</li>
-					</ol>
+                    <ol class="breadcrumb">
+                        <li><a asp-action="Details">Профил</a></li>
+                        <li class="active">Поръчки</li>
+                    </ol>
 				</div>
 			</div>
 		</div>
@@ -19,39 +20,38 @@
 		<div class="row">
 			<div class="col-md-12">
 				<ul class="list-inline dashboard-menu text-center">
-					<li><a asp-action="Dashboard">Табло</a></li>
-					<li><a class="active" asp-action="Orders">Поръчки</a></li>
-                    @if (User.IsInRole("Administrator"))
-                    {
-                        <li><a asp-controller="Products" asp-action="Add">Добави продукт</a></li>
-                    }
-					<li><a asp-action="Details">Детайли за профила</a></li>
+                    <li><a asp-action="Details">Детайли за профила</a></li>
+                    <li><a asp-action="Orders" class="active">Поръчки</a></li>
 				</ul>
 				<div class="dashboard-wrapper user-dashboard">
 					<div class="table-responsive">
 						<table class="table">
-							<thead>
-								<tr>
-									<th>#</th>
-									<th>Дата</th>
-									<th>Продукти</th>
-									<th>Общо</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>#451231</td>
-									<td>Mar 25, 2016</td>
-									<td>2</td>
-									<td>$99.00</td>
-								</tr>
-								<tr>
-									<td>#451231</td>
-									<td>Mar 25, 2016</td>
-									<td>3</td>
-									<td>$150.00</td>
-								</tr>
-							</tbody>
+                            <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Тел. номер</th>
+                                <th>Адрес</th>
+                                <th>Продукти</th>
+                                <th>Общо</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            @foreach (var order in Model)
+                            {
+                                <tr>
+                                    <td>@order.Id</td>
+                                    <td>@order.PhoneNumber</td>
+                                    <td>@order.Address</td>
+                                    <td>
+                                        @foreach (var product in order.Products)
+                                        {
+                                            <p>@product.Name (Номер на продукт: @product.Id)</p>
+                                        }
+                                    </td>
+                                    <td>@order.TotalSum лв.</td>
+                                </tr>
+                            }
+                            </tbody>
 						</table>
 					</div>
 				</div>

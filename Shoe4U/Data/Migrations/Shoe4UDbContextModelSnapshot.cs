@@ -8,7 +8,7 @@ using Shoe4U.Data;
 
 #nullable disable
 
-namespace Shoe4U.Migrations
+namespace Shoe4U.Data.Migrations
 {
     [DbContext(typeof(Shoe4UDbContext))]
     partial class Shoe4UDbContextModelSnapshot : ModelSnapshot
@@ -51,8 +51,8 @@ namespace Shoe4U.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "0645b2c8-aaa9-4b7c-8acc-4a99d59f6817",
-                            ConcurrencyStamp = "0645b2c8-aaa9-4b7c-8acc-4a99d59f6817",
+                            Id = "73c65cbf-b488-4648-a6e0-559cace3a694",
+                            ConcurrencyStamp = "73c65cbf-b488-4648-a6e0-559cace3a694",
                             Name = "Administrator",
                             NormalizedName = "ADMINISTRATOR"
                         });
@@ -149,8 +149,8 @@ namespace Shoe4U.Migrations
                     b.HasData(
                         new
                         {
-                            UserId = "9c66b332-76e4-47cf-9142-4f7e2d19a490",
-                            RoleId = "0645b2c8-aaa9-4b7c-8acc-4a99d59f6817"
+                            UserId = "a8067a00-432d-4815-a109-d7c5e51152aa",
+                            RoleId = "73c65cbf-b488-4648-a6e0-559cace3a694"
                         });
                 });
 
@@ -202,6 +202,24 @@ namespace Shoe4U.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Messages");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Content = "Зелените ботуши налични ли са?",
+                            Email = "ivan.petrov@gmail.com",
+                            Name = "Иван Петров",
+                            Subject = "Запитване"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Content = "Бежавите мокасини налични ли са 37 номер?",
+                            Email = "georgi.angelov@gmail.com",
+                            Name = "Георги Ангелов",
+                            Subject = "Размер на мокасините"
+                        });
                 });
 
             modelBuilder.Entity("Shoe4U.Data.Models.Order", b =>
@@ -211,6 +229,14 @@ namespace Shoe4U.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Address")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PhoneNumber")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("TotalSum")
                         .HasColumnType("decimal(18,2)");
@@ -224,6 +250,32 @@ namespace Shoe4U.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("Orders");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Address = "ул. \"Сан Стефано\" 1",
+                            PhoneNumber = "+359874526871",
+                            TotalSum = 133.98m,
+                            UserId = "ab73d78b-5c5d-4ab8-8d29-f6c8702c1d6b"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Address = "ул. \"Княз Александър Батенберг\" 34",
+                            PhoneNumber = "+359878526011",
+                            TotalSum = 47.99m,
+                            UserId = "ab73d78b-5c5d-4ab8-8d29-f6c8702c1d6b"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Address = "ул. \"Опълченска\" 21",
+                            PhoneNumber = "+359874596507",
+                            TotalSum = 85.99m,
+                            UserId = "a8067a00-432d-4815-a109-d7c5e51152aa"
+                        });
                 });
 
             modelBuilder.Entity("Shoe4U.Data.Models.OrderProduct", b =>
@@ -239,6 +291,28 @@ namespace Shoe4U.Migrations
                     b.HasIndex("ProductId");
 
                     b.ToTable("OrderProducts");
+
+                    b.HasData(
+                        new
+                        {
+                            OrderId = 1,
+                            ProductId = 1
+                        },
+                        new
+                        {
+                            OrderId = 1,
+                            ProductId = 2
+                        },
+                        new
+                        {
+                            OrderId = 2,
+                            ProductId = 2
+                        },
+                        new
+                        {
+                            OrderId = 3,
+                            ProductId = 1
+                        });
                 });
 
             modelBuilder.Entity("Shoe4U.Data.Models.Product", b =>
@@ -295,6 +369,40 @@ namespace Shoe4U.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Products");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Brand = "Adidas",
+                            Category = 1,
+                            Color = "Зелен",
+                            CreatedOn = new DateTime(2024, 5, 20, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Description = "Зимни ботуши, идеални за студените месеци, с водоустойчива повърхност и топла подплата. Стилен дизайн, подходящ за всекидневието и разнообразни поводи. Издръжливи материали и удобна подметка за сигурност на различни повърхности. Насладете се на комфорт и топлина през зимата с тези модерни ботуши.",
+                            ImageUrl = "http://res.cloudinary.com/dthtmmyo8/image/upload/v1713120403/btu4yldkeb0h7qeobksc.jpg",
+                            IsDeleted = false,
+                            Material = "Велур",
+                            Name = "Зимни ботуши",
+                            Price = 85.99m,
+                            Quantity = 3,
+                            Size = "43"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Brand = "Tendenz",
+                            Category = 2,
+                            Color = "Розово и бяло",
+                            CreatedOn = new DateTime(2024, 5, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Description = "Мокасини с универсален стил, подходящи за всички сезони. Изработени от висококачествени материали, които осигуряват комфорт и издръжливост. Лек и гъвкав дизайн за удобство при носене през цялата година. Изберете мокасините за ежедневието си с увереност в стил и удобство.",
+                            ImageUrl = "http://res.cloudinary.com/dthtmmyo8/image/upload/v1713124891/pj6qwgbm7ldvi6nox00b.jpg",
+                            IsDeleted = false,
+                            Material = "Велур",
+                            Name = "Мокасини",
+                            Price = 47.99m,
+                            Quantity = 1,
+                            Size = "37"
+                        });
                 });
 
             modelBuilder.Entity("Shoe4U.Data.Models.Review", b =>
@@ -326,6 +434,40 @@ namespace Shoe4U.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("Reviews");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Content = "Зимните ботуши са идеалният избор за студените дни! Удобни, топли и водоустойчиви - точно както обещават. Дизайнът им е стилен и мога да ги комбинирам с всякакви облекла. Супер съм доволен от покупката си!",
+                            CreatedOn = new DateTime(2024, 5, 10, 21, 19, 0, 0, DateTimeKind.Unspecified),
+                            ProductId = 1,
+                            UserId = "ab73d78b-5c5d-4ab8-8d29-f6c8702c1d6b"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Content = "Зимните ботуши са моят спасител през студените месеци! Не само че са топли и удобни, но и изглеждат страхотно. Водоустойчивата повърхност наистина работи и ме уверява, че няма да ми стане студ нито на дъждовен ден. Със сигурност ще ги препоръчам на приятелите си!",
+                            CreatedOn = new DateTime(2024, 5, 15, 15, 23, 0, 0, DateTimeKind.Unspecified),
+                            ProductId = 1,
+                            UserId = "a8067a00-432d-4815-a109-d7c5e51152aa"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Content = "Мокасините са просто невероятни! Нося ги всеки ден и се чувствам толкова комфортно в тях. Изработени са от качествени материали и изглеждат много стилно. Бих ги препоръчал на всеки, който търси удобство и елегантност в едно.",
+                            CreatedOn = new DateTime(2024, 5, 17, 7, 41, 0, 0, DateTimeKind.Unspecified),
+                            ProductId = 2,
+                            UserId = "ab73d78b-5c5d-4ab8-8d29-f6c8702c1d6b"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Content = "Мокасините са моят нов любим чифт обувки! Невероятно са удобни и меки, като втора кожа. Подходящи за носене през цялата година, те са перфектни за всекидневна употреба. Дизайнът им е класически, но все пак много стилен. Препоръчвам ги на всеки, който цени комфорта и качеството.",
+                            CreatedOn = new DateTime(2024, 5, 19, 12, 37, 0, 0, DateTimeKind.Unspecified),
+                            ProductId = 2,
+                            UserId = "a8067a00-432d-4815-a109-d7c5e51152aa"
+                        });
                 });
 
             modelBuilder.Entity("Shoe4U.Data.Models.User", b =>
@@ -403,37 +545,37 @@ namespace Shoe4U.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "9c66b332-76e4-47cf-9142-4f7e2d19a490",
+                            Id = "a8067a00-432d-4815-a109-d7c5e51152aa",
                             AccessFailedCount = 0,
-                            Basket = "",
-                            ConcurrencyStamp = "915d7cec-e053-4d87-b438-45545662a133",
+                            Basket = "1",
+                            ConcurrencyStamp = "be98e1b3-c930-48cf-a858-e08fc224c058",
                             Email = "admin@shoe4u.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             Name = "Иван Петров",
                             NormalizedEmail = "ADMIN@SHOE4U.COM",
                             NormalizedUserName = "ADMIN@SHOE4U.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAEI4FbMbxBvmdyppfbL9ve8WsJKYLpnnkqvaccq1JNotzqZRaq9gzY7GvRH+hpFpzOA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEJ2cpYEXlRin9ovmz0OVkcol0GmuzxZuYKLf1gfo0clBN/a7YM4sR8BdCaVzw6OArA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "e69580af-825a-4c40-b9c4-8dd609daa31f",
+                            SecurityStamp = "372fc3e2-dc36-4b29-98b5-99abed120b7c",
                             TwoFactorEnabled = false,
                             UserName = "admin@shoe4u.com"
                         },
                         new
                         {
-                            Id = "7b21168e-9a76-41d1-8e5b-49d3c078c0f6",
+                            Id = "ab73d78b-5c5d-4ab8-8d29-f6c8702c1d6b",
                             AccessFailedCount = 0,
-                            Basket = "",
-                            ConcurrencyStamp = "8b5eb433-8f2b-456d-889f-2e72d5a4affb",
+                            Basket = "1; 2",
+                            ConcurrencyStamp = "218b29f8-e369-42a2-95a9-e2901df27356",
                             Email = "user@shoe4u.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             Name = "Петър Георгиев",
                             NormalizedEmail = "USER@SHOE4U.COM",
                             NormalizedUserName = "USER@SHOE4U.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAENtM++xREkKPHUdls3mnxd4XQhcYC1+8r60RGWArayMI+hPT1Tzec+dRGck8bcGO6A==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEOHUFjMN4zpR2xdvIUHf/xleiqXgFwKMP6962bcRg30xBgaxpPQvVZoKbh+AwE3qWg==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "b16576c4-1a90-46df-9bd9-5542a96f3d95",
+                            SecurityStamp = "5f427a57-6355-47ae-a846-c4ac803a7857",
                             TwoFactorEnabled = false,
                             UserName = "user@shoe4u.com"
                         });

@@ -7,6 +7,9 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Models.Users;
 using System.Security.Claims;
+using Microsoft.EntityFrameworkCore;
+using Models.Orders;
+using Models.Products;
 
 public class UsersController : Controller
 {
@@ -143,5 +146,63 @@ public class UsersController : Controller
         await userManager.CreateAsync(user, input.Password);
 
         return RedirectToAction("All");
+    }
+
+    [HttpGet]
+    [Authorize]
+    public async Task<IActionResult> Orders()
+    {
+	    var orders = await this.data.Orders
+		    .Where(o => o.UserId == this.User.FindFirst(ClaimTypes.NameIdentifier).Value)
+		    .Select(o => new OrderDetailsOutputModel()
+		    {
+			    Id = o.Id,
+			    TotalSum = o.TotalSum,
+			    Address = o.Address,
+			    PhoneNumber = o.PhoneNumber,
+			    UserId = o.UserId,
+			    User = this.data.Users
+				    .Where(u => u.Id == o.UserId)
+				    .Select(u => new UserDetailsViewModel()
+				    {
+					    Id = u.Id,
+					    Name = u.Name,
+					    Email = u.Email
+				    })
+				    .SingleOrDefault(),
+			    Products = new List<ProductDetailsViewModel>()
+		    })
+		    .ToListAsync();
+
+	    foreach (var order in orders)
+	    {
+		    var orderProducts = await this.data.OrderProducts
+			    .Where(op => op.OrderId == order.Id)
+			    .ToListAsync();
+
+		    foreach (var orderProduct in orderProducts)
+		    {
+			    var product = await this.data.Products
+				    .Where(p => p.Id == orderProduct.ProductId)
+				    .Select(product => new ProductDetailsViewModel()
+				    {
+					    Brand = product.Brand,
+					    Color = product.Color,
+					    Description = product.Description,
+					    Id = product.Id,
+					    ImageUrl = product.ImageUrl,
+					    Material = product.Material,
+					    Name = product.Name,
+					    Price = product.Price,
+					    Quantity = product.Quantity,
+					    Size = product.Size
+				    })
+				    .FirstOrDefaultAsync();
+
+			    order.Products.Add(product);
+		    }
+	    }
+
+	    return this.View(orders);
     }
 }

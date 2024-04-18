@@ -114,18 +114,21 @@ public class ProductsController : Controller
             }
         };
 
-        var orders = await this.data.Orders
-	        .Where(o => o.UserId == this.User.FindFirst(ClaimTypes.NameIdentifier).Value).ToListAsync();
-
-        foreach (var order in orders)
+        if (this.User.Identity.IsAuthenticated)
         {
-	        var orderProducts = await this.data.OrderProducts
-		        .Where(op => op.OrderId == order.Id && op.ProductId == id).ToListAsync();
+            var orders = await this.data.Orders
+                .Where(o => o.UserId == this.User.FindFirst(ClaimTypes.NameIdentifier).Value).ToListAsync();
 
-	        if (!model.IsCurrentProductPurchasedBefore)
-	        {
-				model.IsCurrentProductPurchasedBefore = orderProducts.Any();
-			}
+            foreach (var order in orders)
+            {
+                var orderProducts = await this.data.OrderProducts
+                    .Where(op => op.OrderId == order.Id && op.ProductId == id).ToListAsync();
+
+                if (!model.IsCurrentProductPurchasedBefore)
+                {
+                    model.IsCurrentProductPurchasedBefore = orderProducts.Any();
+                }
+            }
         }
         
         return this.View(model);

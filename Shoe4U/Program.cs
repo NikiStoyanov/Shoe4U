@@ -12,7 +12,7 @@ builder.Services
     .AddDefaultIdentity<User>(options =>
     {
         options.SignIn.RequireConfirmedEmail = false;
-        options.Password.RequiredLength = 8;
+        options.Password.RequiredLength = 6;
         options.Password.RequireDigit = true;
         options.Password.RequireLowercase = true;
         options.Password.RequireNonAlphanumeric = true;

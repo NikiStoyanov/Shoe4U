@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
 
-namespace Shoe4U.Migrations
+namespace Shoe4U.Data.Migrations
 {
     /// <inheritdoc />
     public partial class Initial : Migration
@@ -33,7 +33,7 @@ namespace Shoe4U.Migrations
                 {
                     Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Address = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Basket = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     UserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     NormalizedUserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     Email = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
@@ -78,14 +78,16 @@ namespace Shoe4U.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     CreatedOn = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Quantity = table.Column<int>(type: "int", nullable: false),
+                    Category = table.Column<int>(type: "int", nullable: false),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     ImageUrl = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Price = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    Availability = table.Column<int>(type: "int", nullable: false),
                     Color = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Material = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Brand = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Size = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Size = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    IsDeleted = table.Column<bool>(type: "bit", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -205,6 +207,8 @@ namespace Shoe4U.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     UserId = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    Address = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    PhoneNumber = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     TotalSum = table.Column<decimal>(type: "decimal(18,2)", nullable: false)
                 },
                 constraints: table =>
@@ -273,21 +277,71 @@ namespace Shoe4U.Migrations
             migrationBuilder.InsertData(
                 table: "AspNetRoles",
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
-                values: new object[] { "d59449ef-61c3-44ce-9909-9b53521df9a1", "d59449ef-61c3-44ce-9909-9b53521df9a1", "Administrator", "ADMINISTRATOR" });
+                values: new object[] { "73c65cbf-b488-4648-a6e0-559cace3a694", "73c65cbf-b488-4648-a6e0-559cace3a694", "Administrator", "ADMINISTRATOR" });
 
             migrationBuilder.InsertData(
                 table: "AspNetUsers",
-                columns: new[] { "Id", "AccessFailedCount", "Address", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "Name", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
+                columns: new[] { "Id", "AccessFailedCount", "Basket", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "Name", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
                 values: new object[,]
                 {
-                    { "33a8cbb6-368b-4ec8-a89f-1ec00bc894b1", 0, null, "570fdbae-7685-4046-9113-83bf783c1e35", "admin@shoe4u.com", true, false, null, "Иван Петров", "ADMIN@SHOE4U.COM", "ADMIN@SHOE4U.COM", "AQAAAAIAAYagAAAAEOzQLHPKc8vGJ/qOR0KLWJSBwefQrl3LU7I2PlddmorCMLnt4IO/zv4ZIwwwK5qPxQ==", null, false, "cd8c604b-58cb-4a7d-a8f4-b0d9138e1553", false, "admin@shoe4u.com" },
-                    { "f4358e67-7572-489d-9ed9-3e7aebf3a132", 0, null, "02870c21-5433-49e5-b2f3-c00da26fe1d6", "user@shoe4u.com", true, false, null, "Петър Георгиев", "USER@SHOE4U.COM", "USER@SHOE4U.COM", "AQAAAAIAAYagAAAAEESmT9Laez4aG7jx0d7B2BXBHm0loBkDZh/YqT8cyaHKYkxkATK3Jz4BfU39S2rlqQ==", null, false, "6f9eb76a-04d9-4a47-a5c9-fdcbee8444a8", false, "user@shoe4u.com" }
+                    { "a8067a00-432d-4815-a109-d7c5e51152aa", 0, "1", "be98e1b3-c930-48cf-a858-e08fc224c058", "admin@shoe4u.com", true, false, null, "Иван Петров", "ADMIN@SHOE4U.COM", "ADMIN@SHOE4U.COM", "AQAAAAIAAYagAAAAEJ2cpYEXlRin9ovmz0OVkcol0GmuzxZuYKLf1gfo0clBN/a7YM4sR8BdCaVzw6OArA==", null, false, "372fc3e2-dc36-4b29-98b5-99abed120b7c", false, "admin@shoe4u.com" },
+                    { "ab73d78b-5c5d-4ab8-8d29-f6c8702c1d6b", 0, "1; 2", "218b29f8-e369-42a2-95a9-e2901df27356", "user@shoe4u.com", true, false, null, "Петър Георгиев", "USER@SHOE4U.COM", "USER@SHOE4U.COM", "AQAAAAIAAYagAAAAEOHUFjMN4zpR2xdvIUHf/xleiqXgFwKMP6962bcRg30xBgaxpPQvVZoKbh+AwE3qWg==", null, false, "5f427a57-6355-47ae-a846-c4ac803a7857", false, "user@shoe4u.com" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "Messages",
+                columns: new[] { "Id", "Content", "Email", "Name", "Subject" },
+                values: new object[,]
+                {
+                    { 1, "Зелените ботуши налични ли са?", "ivan.petrov@gmail.com", "Иван Петров", "Запитване" },
+                    { 2, "Бежавите мокасини налични ли са 37 номер?", "georgi.angelov@gmail.com", "Георги Ангелов", "Размер на мокасините" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "Products",
+                columns: new[] { "Id", "Brand", "Category", "Color", "CreatedOn", "Description", "ImageUrl", "IsDeleted", "Material", "Name", "Price", "Quantity", "Size" },
+                values: new object[,]
+                {
+                    { 1, "Adidas", 1, "Зелен", new DateTime(2024, 5, 20, 0, 0, 0, 0, DateTimeKind.Unspecified), "Зимни ботуши, идеални за студените месеци, с водоустойчива повърхност и топла подплата. Стилен дизайн, подходящ за всекидневието и разнообразни поводи. Издръжливи материали и удобна подметка за сигурност на различни повърхности. Насладете се на комфорт и топлина през зимата с тези модерни ботуши.", "http://res.cloudinary.com/dthtmmyo8/image/upload/v1713120403/btu4yldkeb0h7qeobksc.jpg", false, "Велур", "Зимни ботуши", 85.99m, 3, "43" },
+                    { 2, "Tendenz", 2, "Розово и бяло", new DateTime(2024, 5, 10, 0, 0, 0, 0, DateTimeKind.Unspecified), "Мокасини с универсален стил, подходящи за всички сезони. Изработени от висококачествени материали, които осигуряват комфорт и издръжливост. Лек и гъвкав дизайн за удобство при носене през цялата година. Изберете мокасините за ежедневието си с увереност в стил и удобство.", "http://res.cloudinary.com/dthtmmyo8/image/upload/v1713124891/pj6qwgbm7ldvi6nox00b.jpg", false, "Велур", "Мокасини", 47.99m, 1, "37" }
                 });
 
             migrationBuilder.InsertData(
                 table: "AspNetUserRoles",
                 columns: new[] { "RoleId", "UserId" },
-                values: new object[] { "d59449ef-61c3-44ce-9909-9b53521df9a1", "33a8cbb6-368b-4ec8-a89f-1ec00bc894b1" });
+                values: new object[] { "73c65cbf-b488-4648-a6e0-559cace3a694", "a8067a00-432d-4815-a109-d7c5e51152aa" });
+
+            migrationBuilder.InsertData(
+                table: "Orders",
+                columns: new[] { "Id", "Address", "PhoneNumber", "TotalSum", "UserId" },
+                values: new object[,]
+                {
+                    { 1, "ул. \"Сан Стефано\" 1", "+359874526871", 133.98m, "ab73d78b-5c5d-4ab8-8d29-f6c8702c1d6b" },
+                    { 2, "ул. \"Княз Александър Батенберг\" 34", "+359878526011", 47.99m, "ab73d78b-5c5d-4ab8-8d29-f6c8702c1d6b" },
+                    { 3, "ул. \"Опълченска\" 21", "+359874596507", 85.99m, "a8067a00-432d-4815-a109-d7c5e51152aa" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "Reviews",
+                columns: new[] { "Id", "Content", "CreatedOn", "ProductId", "UserId" },
+                values: new object[,]
+                {
+                    { 1, "Зимните ботуши са идеалният избор за студените дни! Удобни, топли и водоустойчиви - точно както обещават. Дизайнът им е стилен и мога да ги комбинирам с всякакви облекла. Супер съм доволен от покупката си!", new DateTime(2024, 5, 10, 21, 19, 0, 0, DateTimeKind.Unspecified), 1, "ab73d78b-5c5d-4ab8-8d29-f6c8702c1d6b" },
+                    { 2, "Зимните ботуши са моят спасител през студените месеци! Не само че са топли и удобни, но и изглеждат страхотно. Водоустойчивата повърхност наистина работи и ме уверява, че няма да ми стане студ нито на дъждовен ден. Със сигурност ще ги препоръчам на приятелите си!", new DateTime(2024, 5, 15, 15, 23, 0, 0, DateTimeKind.Unspecified), 1, "a8067a00-432d-4815-a109-d7c5e51152aa" },
+                    { 3, "Мокасините са просто невероятни! Нося ги всеки ден и се чувствам толкова комфортно в тях. Изработени са от качествени материали и изглеждат много стилно. Бих ги препоръчал на всеки, който търси удобство и елегантност в едно.", new DateTime(2024, 5, 17, 7, 41, 0, 0, DateTimeKind.Unspecified), 2, "ab73d78b-5c5d-4ab8-8d29-f6c8702c1d6b" },
+                    { 4, "Мокасините са моят нов любим чифт обувки! Невероятно са удобни и меки, като втора кожа. Подходящи за носене през цялата година, те са перфектни за всекидневна употреба. Дизайнът им е класически, но все пак много стилен. Препоръчвам ги на всеки, който цени комфорта и качеството.", new DateTime(2024, 5, 19, 12, 37, 0, 0, DateTimeKind.Unspecified), 2, "a8067a00-432d-4815-a109-d7c5e51152aa" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "OrderProducts",
+                columns: new[] { "OrderId", "ProductId" },
+                values: new object[,]
+                {
+                    { 1, 1 },
+                    { 1, 2 },
+                    { 2, 2 },
+                    { 3, 1 }
+                });
 
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",
